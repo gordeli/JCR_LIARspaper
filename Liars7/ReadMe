@@ -5,3 +5,4 @@ The sequence for running the codes is the floowing:
   4. concreteness_nouns7.py Input data file: Liars7_nouns.sqlite Output file: Liars7_hypnum.sqlite
   5. concreteness_BWK7.py Input data file: Liars7_hypnum.sqlite Output file: Liars7_BWK.sqlite
   6. concreteness_frac.py Input data file: Liars7_BWK.sqlite Output file: Liars7_frac.sqlite
+  7. LIWC.py Input data file: Liars7_frac.sqlite Output file: Liars7_LIWC.sqlite The LIWC data is loaded from the follwing files: LIWC_cleaned.xlsx LIWC_raw.xlsx
