@@ -1,0 +1,8 @@
+pathos
+tqdm
+nltk
+sacremoses
+pyenchant==2.0.0
+numpy
+scipy
+xlrd
