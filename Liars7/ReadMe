@@ -6,6 +6,7 @@ The sequence for running the codes is the floowing:
   5. concreteness_BWK7.py Input data file: Liars7_hypnum.sqlite Output file: Liars7_BWK.sqlite
   6. concreteness_frac.py Input data file: Liars7_BWK.sqlite Output file: Liars7_frac.sqlite
   7. LIWC.py Input data file: Liars7_frac.sqlite Output file: Liars7_LIWC.sqlite The LIWC data is loaded from the follwing files: LIWC_cleaned.xlsx LIWC_raw.xlsx
+  8. all_forms_TF.py Input data file: Liars7_LIWC.sqlite; Output file: Liars7_wordformsTF.sqlite
   
   Data files:
  LIWC_cleaned.xlsx contains LIWC output for the cleaned reviews; 
