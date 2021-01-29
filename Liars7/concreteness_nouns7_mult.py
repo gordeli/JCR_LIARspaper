@@ -16,7 +16,9 @@
 # by a relevant parameter afterwards as long as we have it in the tables.
 # For categorical concretness we have the
 
-from pathos.multiprocessing import ProcessingPool as Pool
+# from pathos.multiprocessing import ProcessingPool as Pool
+from multiprocessing.pool import Pool
+
 from tqdm import tqdm
 import time
 
@@ -29,23 +31,52 @@ import scipy
 from scipy import linalg, optimize, special
 from scipy.special import comb
 import nltk
-from nltk.corpus import wordnet as wn
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.tag.mapping import tagset_mapping, map_tag
 from nltk.stem import WordNetLemmatizer
+from nltk.corpus.util import LazyCorpusLoader
+from nltk.corpus.reader import CorpusReader, WordNetCorpusReader
+from nltk.stem import PorterStemmer
 
 wnl = WordNetLemmatizer()
 
+wn = None    # this global variable will be pointing to different wordnet object for different workers
+             # see get_wordnet(),  set_wordnet(), and initializer parameter in Pool
+
+def get_wordnet():
+    """ this code is copied from nltk.corpus
+    we want wordnet to be individual distinct objects for each worker
+    otherwise, if different workers share the same wordnet object
+    they confuse each other and the code crashes 
+
+    the reason is that wordnet maintains inside it some kind of cache or mutable states
+    
+    this function returns a single independent copy of wordnet object
+    """
+
+    return LazyCorpusLoader(
+    "wordnet",
+    WordNetCorpusReader,
+    LazyCorpusLoader("omw", CorpusReader, r".*/wn-data-.*\.tab", encoding="utf8"))
+
+def set_wordnet():
+    """
+    this procedure gets a new wordnet object and sets the global variable wn to point to that object
+    """
+    global wn
+    wn = get_wordnet()
+    print("initialiazing wordnet: ", wn)
+
+
+
 # Functions to generate wordfroms and noun-lemmas they convert to. from wordforms.py
 def wordnet_word(word):
-    from nltk.corpus import wordnet as wn
     if not wn.synsets(word):
         return False
     else:
         return True
 
 def wordnet_tag(word):
-    from nltk.corpus import wordnet as wn
     noun_synsets = wn.synsets(word, pos='n')
     verb_synsets = wn.synsets(word, pos='v')
     adj_synsets = wn.synsets(word, pos='a')
@@ -356,10 +387,7 @@ def nounify(word, tag):
 def wordformtion(text):
     # this function generates 2 dictionaries: a dictionary of wordforms with POS and count
     # and a dictionary of corrsponding noun-lemmas with counts
-    import nltk
-    from nltk.tokenize import sent_tokenize, word_tokenize
-    import numpy as np
-    from nltk.stem import PorterStemmer
+
     porter = PorterStemmer()
     sentences = sent_tokenize(text)
     wordforms = dict() # Initializes an empty dictionary where we will keep track of all nouns in the whole corpus of reviews and how many times their occurence values
@@ -1300,7 +1328,9 @@ if __name__ == '__main__':
         print('''The column 'R_norep_excl' exists already''')
         pass # handle the error
 
-    # exclusion_list_fake = nouns_to_filter(0)
+    set_wordnet()
+    exclusion_list_fake = nouns_to_filter(0)
+
     # exclusion_list_real = nouns_to_filter(1)
     #
     # print(len(exclusion_list_fake), 'Nouns exclusion list for the fake condition: ', exclusion_list_fake)
@@ -1420,14 +1450,15 @@ if __name__ == '__main__':
     print("start computing..")
     t0 = time.time()
 
-    n_processes = 4
+    n_processes = 32
 
     if n_processes == 1:
         print("single process")
         answers = [process_row(row) for row in rows]  # single process each row in rows
     else:
         print(f"pool process with {n_processes} threads")
-        with Pool(proceses=n_processes) as pool:
+        # we call initializer function = set_wordnet so that each worker receives separate wn object
+        with Pool(processes=n_processes, initializer=set_wordnet) as pool:
             answers = list(tqdm(pool.imap(process_row, rows), total = len(rows)))
 
     print(f"finished computing in {time.time() - t0} seconds...")
