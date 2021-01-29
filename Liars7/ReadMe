@@ -10,7 +10,7 @@ The sequence for running the codes is the floowing:
   9. all_forms_cond_final.py
   10. counts_review_final.py 
   11. all_forms_fqn.py
-  12. unique_review_final.py 
+  12. unique_review_final.py - implement multiprocessing for larger datasets
   13. POS_final.py
   14. instructions_recall_final.py 
   15. all_pairs_TF_final.py 
