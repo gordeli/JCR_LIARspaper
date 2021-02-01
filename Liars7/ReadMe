@@ -17,7 +17,7 @@ The sequence for running the codes is the floowing:
   16. all_pairs_cond_final.py
   17. counts_pairs_review_final.py
   18. all_pairs_fqn_final.py
-  19. unique_pairs_review_final.py
+  19. unique_pairs_review_final.py - last code to run for the dataset excluding www and content words diversity
   20. all_sentences_TF_final.py
   21. all_sent_cond_final.py
   22. counts_sent_review_final.py
