@@ -1,0 +1,4 @@
+The folder containes models trained in Matlab Classification Learner App
+SVM14 is the model trained on Liars7 with 14 features
+SVM11 is the model trained on Liars7 data with 11 features
+SVM11_ott is the model trained on ott data with 11 features
