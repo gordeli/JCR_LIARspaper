@@ -1,4 +1,4 @@
-Note: input and output file names may need to be adjusted.
+Note: input and output file names may need to be adjusted. Some data files from the folder 'data' may need to be used as input
 The sequence for running the codes is the floowing:
   1. cleaning.py Pre-processing (spellchecking, non alpha-numeric characters removal)
   2. wordforms.py Generating wordforms from the review texts
