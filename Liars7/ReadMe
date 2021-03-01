@@ -1,3 +1,4 @@
+Note: input and output file names may need to be adjusted.
 The sequence for running the codes is the floowing:
   1. cleaning.py Input data file: Liar7.sqlite Output file: Liars7_clean_tr20200618.sqlite
   2. wordforms7.py Input data file: Liars7_clean_tr20200618.sqlite Output file: Liars7_wordforms.sqlite
