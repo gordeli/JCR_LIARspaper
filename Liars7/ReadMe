@@ -1,43 +1,13 @@
 Note: input and output file names may need to be adjusted.
 The sequence for running the codes is the floowing:
-  1. cleaning.py Input data file: Liar7.sqlite Output file: Liars7_clean_tr20200618.sqlite
-  2. wordforms7.py Input data file: Liars7_clean_tr20200618.sqlite Output file: Liars7_wordforms.sqlite
-  3. nouns_hypernyms7.py Input data file: Liars7_wordforms.sqlite Output file: Liars7_nouns.sqlite
-  4. concreteness_nouns7.py Input data file: Liars7_nouns.sqlite Output file: Liars7_hypnum.sqlite
-  5. concreteness_BWK7.py Input data file: Liars7_hypnum.sqlite Output file: Liars7_BWK.sqlite
-  6. concreteness_frac.py Input data file: Liars7_BWK.sqlite Output file: Liars7_frac.sqlite
-  7. LIWC.py Input data file: Liars7_frac.sqlite Output file: Liars7_LIWC.sqlite The LIWC data is loaded from the follwing files: LIWC_cleaned.xlsx LIWC_raw.xlsx
-  8. all_forms_TF.py Input data file: Liars7_LIWC.sqlite; Output file: Liars7_wordformsTF.sqlite
-  9. all_forms_cond_final.py
-  10. counts_review_final.py 
-  11. all_forms_fqn.py
-  12. unique_review_final.py - implement multiprocessing for larger datasets
-  13. POS_final.py
-  14. instructions_recall_final.py - could benefit from multiprocessing for large datasets
-  15. all_pairs_TF_final.py 
-  16. all_pairs_cond_final.py
-  17. counts_pairs_review_final.py
-  18. all_pairs_fqn_final.py
-  19. unique_pairs_review_final.py - last code to run for the dataset excluding www and content words diversity
-  20. all_sentences_TF_final.py
-  21. all_sent_cond_final.py
-  22. counts_sent_review_final.py
-  23. LIWC_sent_final.py
-  24. www_sent_final.py
-  25. www_reviews_final.py
-  26. www_reviews_instructions_final.py
-  27. sent_inst_final.py
-  28. LIWC_sent_true_final.py
-  29. LIWC_sent_fake_final.py
-  30. www_sent_realfake_final.py
-  31. www_reviews_instructions_lemmas_final.py
-  32. diversity_contentwords_final.py
-  33. diversity_contentwords_wordforms.py
-  
-  SQL querry to generate the variables for ML:
-  SELECT Participants.id, Condition, Word_count, Depth_N_rep_excl, Depth_V_rep_excl, Depth_J_rep_excl, Depth_R_rep_excl, Review_uniqwords, Word_pair_count, Uniqpairs, Content_words, Words_from_Instructions, VB, VBD, VBG, VBN, VBP, VBZ, MD, AU, discrep_LIWC, tentat_LIWC, certain_LIWC, differ_LIWC from Reviews JOIN Participants ON Participants.id = Reviews.id
-  
-  
-  Data files:
- LIWC_cleaned.xlsx contains LIWC output for the cleaned reviews; 
- LIWC_raw.xlsx contains LIWC output for the original (uncleaned) reviews. The later version is used to extract the informal language variables as well as punctuation (for details see LIWC.py)
+  1. cleaning.py Pre-processing (spellchecking, non alpha-numeric characters removal)
+  2. wordforms.py Generating wordforms from the review texts
+  3. nouns_hypernyms.py Generating noun-lemmas and the number of hypernyms for each one of them
+  4. concreteness_nouns.py Calculates concreteness values for each review
+  5. LIWC.py Load the results of LIWC for each review
+  6. counts_review.py Counts the number of words in each review 
+  7. unique_review.py - Counts the number of unique words for each review
+  8. POS.py - Calculates the counts of each POS tag for each of the reviews
+  9. instructions_recall.py - Calculates the number of words (lemmas) from instructions for each review
+  11. counts_pairs_review.py - Calculates the number of word pairs for eacvh review
+  12. unique_pairs_review.py - Calculates the numbver of rare pairs for each review. Note: parameters in the code need to be adjusted based o the dataset used
