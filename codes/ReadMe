@@ -10,5 +10,6 @@ The sequence for running the codes is the floowing:
   7. unique_review.py - Counts the number of unique words for each review
   8. POS.py - Calculates the counts of each POS tag for each of the reviews
   9. instructions_recall.py - Calculates the number of words (lemmas) from instructions for each review
+  10. all_pairs_TF.py - creates Word pairs table with TF counts
   11. counts_pairs_review.py - Calculates the number of word pairs for eacvh review
   12. unique_pairs_review.py - Calculates the numbver of rare pairs for each review. Note: parameters in the code need to be adjusted based o the dataset used
