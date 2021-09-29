@@ -5,6 +5,7 @@ The sequence for running the codes is the floowing:
   3. nouns_hypernyms.py Generating noun-lemmas and the number of hypernyms for each one of them
   4. concreteness_nouns.py Calculates concreteness values for each review
   5. LIWC.py Load the results of LIWC for each review
+  5.1 allforms_TF.py needs to be lunched here
   6. counts_review.py Counts the number of words in each review 
   7. unique_review.py - Counts the number of unique words for each review
   8. POS.py - Calculates the counts of each POS tag for each of the reviews
