@@ -1,4 +1,3 @@
-
 # This code calculates the number of unique words in each review:
 # import timing
 import re # import the library for regular expressions
