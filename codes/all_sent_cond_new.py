@@ -46,11 +46,11 @@ for row in cur.execute(sqlstr):
     for s in sentences:
         sentences_dic[s] = sentences_dic.get(s, 0) + 1
 
-    if row[0] == 0:
+    if row[0] == 1:
         for sv in sentences_dic:
             count = sentences_dic[sv]
             cur_w.execute('UPDATE Sentences_raw SET TF_Real = TF_Real + ? WHERE Sentence = ?', (count, sv, ))
-    elif row[0] == 1:
+    elif row[0] == 0:
         for sv in sentences_dic:
             count = sentences_dic[sv]
             cur_w.execute('UPDATE Sentences_raw SET TF_Fake = TF_Fake + ? WHERE Sentence = ?', (count, sv, ))
