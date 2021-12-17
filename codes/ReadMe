@@ -1,15 +1,26 @@
 Note: input and output file names may need to be adjusted. Some data files from the folder 'data' may need to be used as input
-The sequence for running the codes is the floowing:
+The sequence for running the codes is the following:
   1. cleaning.py Pre-processing (spellchecking, non alpha-numeric characters removal)
   2. wordforms.py Generating wordforms from the review texts
   3. nouns_hypernyms.py Generating noun-lemmas and the number of hypernyms for each one of them
   4. concreteness_nouns.py Calculates concreteness values for each review
   5. LIWC.py Load the results of LIWC for each review
   5.1 allforms_TF.py needs to be lunched here
-  6. counts_review.py Counts the number of words in each review 
+  6. counts_review.py Counts the number of words in each review
   7. unique_review.py - Counts the number of unique words for each review
   8. POS.py - Calculates the counts of each POS tag for each of the reviews
   9. instructions_recall.py - Calculates the number of words (lemmas) from instructions for each review
   10. all_pairs_TF.py - creates Word pairs table with TF counts
-  11. counts_pairs_review.py - Calculates the number of word pairs for eacvh review
-  12. unique_pairs_review.py - Calculates the numbver of rare pairs for each review. Note: parameters in the code need to be adjusted based o the dataset used
+  11. counts_pairs_review.py - Calculates the number of word pairs for each review
+  12. unique_pairs_review.py - Calculates the number of rare pairs for each review. Note: parameters in the code need to be adjusted based o the dataset used
+  13. unique1_review.py
+  14. unique1_pairs_review.py
+  15. all_sentences_TF_new.py
+  16. all_sent_cond_new.py
+  17. counts_sent_review_new.py
+  18. www_sent_new.py
+  19. www_revies_new.py
+  20. LIWC_ours_rel.py
+  21. LIWC_ours_sent_rel.py
+  22. www_Rel_sent.py
+  23. www_Rel_reviews.py
