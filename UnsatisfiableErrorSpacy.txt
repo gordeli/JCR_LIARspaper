@@ -1,0 +1,1117 @@
+UnsatisfiableError: The following specifications were found to be incompatible with a past
+explicit spec that is not an explicit spec in this operation (sqlite):
+
+  - spacy-transformers -> python[version='>=3.10,<3.11.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+  - spacy-transformers -> python[version='>=3.10,<3.11.0a0'] -> pip
+  - spacy-transformers -> python[version='>=3.10,<3.11.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0']
+  - spacy-transformers -> python[version='>=3.10,<3.11.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|>=14.2,<15.0a0']
+  - spacy-transformers -> python[version='>=3.10,<3.11.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0|>=14.27.29016,<15.0a0']
+  - spacy-transformers -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+  - spacy-transformers -> pytorch[version='>=1.6.0'] -> blas==1.0=mkl
+  - spacy-transformers -> pytorch[version='>=1.6.0'] -> intel-openmp
+  - spacy-transformers -> pytorch[version='>=1.6.0'] -> mkl-service[version='>=2,<3.0a0|>=2.3.0,<3.0a0']
+  - spacy-transformers -> pytorch[version='>=1.6.0'] -> mkl[version='2019.*|2021.*|>=2021.4.0,<2022.0a0|>=2019.4,<2021.0a0']
+  - spacy-transformers -> pytorch[version='>=1.6.0'] -> numpy[version='>=1.11.3,<2.0a0|>=1.21.5,<2.0a0|>=1.16.6,<2.0a0|>=1.21.2,<2.0a0|>=1.17']
+  - spacy-transformers -> spacy-alignments[version='>=0.7.2,<1.0.0']
+  - spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> setuptools
+
+The following specifications were found to be incompatible with each other:
+
+Output in format: Requested package -> Available versions
+
+Package ca-certificates conflicts for:
+urllib3 -> python[version='<4.0'] -> ca-certificates
+preshed -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> openssl[version='>=1.1.1g,<1.1.2a'] -> ca-certificates
+pyopenssl -> python -> ca-certificates
+pyparsing -> python -> ca-certificates
+typing-extensions -> python -> ca-certificates
+cffi -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+jinja2 -> python -> ca-certificates
+certifi -> python -> ca-certificates
+click -> python -> ca-certificates
+idna -> python -> ca-certificates
+thinc -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+typing_extensions -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+defaults/noarch::python-dateutil==2.8.1=pyhd3eb1b0_0 -> python -> ca-certificates
+cymem -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+markupsafe -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+pysocks -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+colorama -> python -> ca-certificates
+ca-certificates
+catalogue -> python -> ca-certificates
+defaults/noarch::xlsxwriter==1.3.7=py_0 -> python -> ca-certificates
+openpyxl -> python -> ca-certificates
+spacy -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+requests -> python -> ca-certificates
+shellingham -> python -> ca-certificates
+murmurhash -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+cryptography -> openssl -> ca-certificates
+smart_open -> python -> ca-certificates
+msgpack-python -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+pycparser -> python -> ca-certificates
+openssl -> ca-certificates
+defaults/noarch::six==1.16.0=pyhd3eb1b0_0 -> python -> ca-certificates
+defaults/noarch::wheel==0.36.2=pyhd3eb1b0_0 -> python -> ca-certificates
+defaults/noarch::pytz==2021.1=pyhd3eb1b0_0 -> python -> ca-certificates
+et_xmlfile -> python -> ca-certificates
+wasabi -> python -> ca-certificates
+win_inet_pton -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+packaging -> python -> ca-certificates
+
+Package mkl-service conflicts for:
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> mkl-service[version='>=2.3.0,<3.0a0']
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> numpy[version='>=1.16,<2.0a0'] -> mkl-service[version='>=2,<3.0a0']
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> mkl-service[version='>=2.3.0,<3.0a0']
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> numpy[version='>=1.16,<2.0a0'] -> mkl-service[version='>=2,<3.0a0']
+numpy-base==1.20.2 -> mkl-service[version='>=2.3.0,<3.0a0']
+defaults/win-64::mkl-service==2.3.0=py38h2bbff1b_1
+thinc -> mkl-service[version='>=2,<3.0a0']
+thinc -> numpy[version='>=1.16.6,<2.0a0'] -> mkl-service[version='>=2.3.0,<3.0a0']
+numpy==1.20.2 -> mkl-service[version='>=2.3.0,<3.0a0']
+numpy==1.20.2 -> mkl_fft -> mkl-service[version='>=2,<3.0a0']
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> numpy[version='>=1.20.2,<2.0a0'] -> mkl-service[version='>=2.3.0,<3.0a0']
+defaults|defaults/win-64::mkl-service==2.3.0=py38h2bbff1b_1
+spacy -> numpy[version='>=1.16.6,<2.0a0'] -> mkl-service[version='>=2,<3.0a0|>=2.3.0,<3.0a0']
+cython-blis -> numpy[version='>=1.21.5,<2.0a0'] -> mkl-service[version='>=2,<3.0a0|>=2.3.0,<3.0a0']
+
+Package vs2015_runtime conflicts for:
+cryptography -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.0.25123,<15.0a0|>=14.0.25420|>=14.15.26706|>=14.27.29016|>=14.16.27012']
+requests -> python[version='>=3.10,<3.11.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+cython-blis -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/win-64::setuptools==52.0.0=py38haa95532_0 -> python[version='>=3.8,<3.9.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+typing-extensions -> python[version='>=3.9,<3.10.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/win-64::mkl-service==2.3.0=py38h2bbff1b_1 -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+numpy-base==1.20.2 -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+spacy-alignments -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+thinc -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.0.25123,<15.0a0|>=14.0.25420|>=14.15.26706|>=14.27.29016|>=14.16.27012']
+jinja2 -> markupsafe[version='>=2.0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+spacy-legacy -> python[version='>=3.7,<3.8.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+shellingham -> python -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+smart_open -> python[version='>=3.9,<3.10.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+cython-blis -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+cryptography -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+charset-normalizer -> python[version='>=3.5'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/win-64::zlib==1.2.11=h62dcd97_4 -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+typing_extensions -> python[version='>=3.8,<3.9.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/noarch::xlsxwriter==1.3.7=py_0 -> python -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+murmurhash -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+openpyxl -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+openssl -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/noarch::pytz==2021.1=pyhd3eb1b0_0 -> python -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+spacy-model-en_core_web_sm -> python[version='>=3.6'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0|>=14.27.29016,<15.0a0']
+defaults/win-64::mkl-service==2.3.0=py38h2bbff1b_1 -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+cymem -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+markupsafe -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.0.25123,<15.0a0|>=14.0.25420|>=14.15.26706|>=14.27.29016|>=14.16.27012']
+defaults/win-64::vs2015_runtime==14.27.29016=h5e58377_2
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+numpy-base==1.20.2 -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+urllib3 -> brotlipy[version='>=0.6.0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+certifi -> python[version='>=3.8,<3.9.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+brotlipy -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/win-64::vc==14.2=h21ff451_1 -> vs2015_runtime[version='>=14.27.29016']
+catalogue -> python[version='>=3.8,<3.9.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+pathy -> python[version='>=3.7,<3.8.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+defaults/win-64::zlib==1.2.11=h62dcd97_4 -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+click -> python[version='>=3.8,<3.9.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+openpyxl -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/noarch::six==1.16.0=pyhd3eb1b0_0 -> python -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+msgpack-python -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+numpy==1.20.2 -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+defaults/win-64::sqlite==3.33.0=h2a8f88b_0 -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+cymem -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.0.25123,<15.0a0|>=14.0.25420|>=14.15.26706|>=14.27.29016|>=14.16.27012']
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+typer -> python[version='>=3.10,<3.11.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+pycparser -> python[version='>=3.6'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+cffi -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.0.25123,<15.0a0|>=14.0.25420|>=14.15.26706|>=14.27.29016|>=14.16.27012']
+spacy-loggers -> python[version='>=3.6'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+openssl -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.0.25123,<15.0a0|>=14.0.25420|>=14.15.26706|>=14.27.29016|>=14.16.27012']
+defaults/noarch::wheel==0.36.2=pyhd3eb1b0_0 -> python -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults|defaults/win-64::vs2015_runtime==14.27.29016=h5e58377_2
+defaults/win-64::pip==20.3.3=py38haa95532_0 -> python[version='>=3.8,<3.9.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/noarch::python-dateutil==2.8.1=pyhd3eb1b0_0 -> python -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+packaging -> python[version='>=3.6'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+pyopenssl -> cryptography[version='>=35.0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+cffi -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/win-64::sqlite==3.33.0=h2a8f88b_0 -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+markupsafe -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+pysocks -> python[version='>=3.7,<3.8.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+msgpack-python -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.0.25123,<15.0a0|>=14.0.25420|>=14.15.26706|>=14.27.29016|>=14.16.27012']
+spacy -> vc[version='>=14.2,<15.0a0'] -> vs2015_runtime[version='>=14.0.25123,<15.0a0|>=14.0.25420|>=14.15.26706|>=14.27.29016|>=14.16.27012']
+colorama -> python[version='>=3.9,<3.10.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+numpy==1.20.2 -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+defaults/win-64::wincertstore==0.2=py38_0 -> python[version='>=3.8,<3.9.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+srsly -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+preshed -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+thinc -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+wasabi -> python[version='>=3.8,<3.9.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+pyparsing -> python[version='>=3.10,<3.11.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+preshed -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.0.25123,<15.0a0|>=14.0.25420|>=14.15.26706|>=14.27.29016|>=14.16.27012']
+et_xmlfile -> python[version='>=3.10,<3.11.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+spacy -> vs2015_runtime[version='>=14.16.27012,<15.0a0|>=14.27.29016,<15.0a0']
+pydantic -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.0.25123,<15.0a0|>=14.0.25420|>=14.15.26706|>=14.27.29016|>=14.16.27012']
+murmurhash -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.0.25123,<15.0a0|>=14.0.25420|>=14.15.26706|>=14.27.29016|>=14.16.27012']
+pydantic -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+win_inet_pton -> python[version='>=3.10,<3.11.0a0'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+spacy-alignments -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+langcodes -> python[version='>=3.6'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+srsly -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+idna -> python[version='>=3.5'] -> vs2015_runtime[version='>=14.16.27012,<15.0a0']
+brotlipy -> vc[version='>=14.1,<15.0a0'] -> vs2015_runtime[version='>=14.15.26706|>=14.27.29016|>=14.16.27012']
+
+Package openssl conflicts for:
+spacy-loggers -> python[version='>=3.6'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+spacy -> python[version='>=3.7,<3.8.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+jinja2 -> python[version='>=3.6'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+markupsafe -> python[version='>=3.9,<3.10.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+defaults/noarch::python-dateutil==2.8.1=pyhd3eb1b0_0 -> python -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+idna -> python[version='>=3.5'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a']
+cymem -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+pysocks -> python[version='>=3.7,<3.8.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+click -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+requests -> python[version='>=3.10,<3.11.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+murmurhash -> python[version='>=3.7,<3.8.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+colorama -> python[version='>=3.9,<3.10.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+typing_extensions -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+numpy-base==1.20.2 -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+defaults/noarch::xlsxwriter==1.3.7=py_0 -> python -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+certifi -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+et_xmlfile -> python[version='>=3.10,<3.11.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+preshed -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+openssl
+catalogue -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+typing-extensions -> python[version='>=3.9,<3.10.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+srsly -> python[version='>=3.9,<3.10.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+shellingham -> python -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+urllib3 -> cryptography[version='>=1.3.4'] -> openssl[version='1.0.*|>=1.0.2o,<1.0.3a|>=1.0.2p,<1.0.3a|>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.0.2n,<1.0.3a|>=1.0.2m,<1.0.3a|>=1.1.1n,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1q,<1.1.2a']
+spacy-alignments -> python[version='>=3.10,<3.11.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+defaults/win-64::pip==20.3.3=py38haa95532_0 -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a']
+openpyxl -> python[version='>=3.10,<3.11.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+cryptography -> openssl[version='1.0.*|>=1.0.2o,<1.0.3a|>=1.0.2p,<1.0.3a|>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.0.2n,<1.0.3a|>=1.0.2m,<1.0.3a']
+numpy==1.20.2 -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+pyparsing -> python[version='>=3.10,<3.11.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+spacy-model-en_core_web_sm -> python[version='>=3.6'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+typer -> python[version='>=3.10,<3.11.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+wasabi -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+pathy -> python[version='>=3.7,<3.8.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+defaults/win-64::wincertstore==0.2=py38_0 -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a']
+smart_open -> python[version='>=3.9,<3.10.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+charset-normalizer -> python[version='>=3.5'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+win_inet_pton -> python[version='>=3.10,<3.11.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+defaults/noarch::six==1.16.0=pyhd3eb1b0_0 -> python -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+thinc -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+pycparser -> python[version='>=3.6'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> openssl[version='>=1.1.1g,<1.1.2a']
+defaults/noarch::wheel==0.36.2=pyhd3eb1b0_0 -> python -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+defaults/noarch::pytz==2021.1=pyhd3eb1b0_0 -> python -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+packaging -> python[version='>=3.6'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+langcodes -> python[version='>=3.6'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+defaults/win-64::setuptools==52.0.0=py38haa95532_0 -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a']
+msgpack-python -> python[version='>=3.10,<3.11.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a']
+cython-blis -> python[version='>=3.10,<3.11.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+pyopenssl -> cryptography[version='>=35.0'] -> openssl[version='1.0.*|>=1.0.2o,<1.0.3a|>=1.0.2p,<1.0.3a|>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.0.2n,<1.0.3a|>=1.0.2m,<1.0.3a']
+spacy-legacy -> python[version='>=3.7,<3.8.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+cryptography -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a']
+defaults/win-64::mkl-service==2.3.0=py38h2bbff1b_1 -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a']
+pydantic -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+brotlipy -> python[version='>=3.8,<3.9.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1h,<1.1.2a']
+cffi -> python[version='>=3.9,<3.10.0a0'] -> openssl[version='>=1.1.1a,<1.1.2a|>=1.1.1b,<1.1.2a|>=1.1.1c,<1.1.2a|>=1.1.1d,<1.1.2a|>=1.1.1e,<1.1.2a|>=1.1.1f,<1.1.2a|>=1.1.1g,<1.1.2a|>=1.1.1h,<1.1.2a|>=1.1.1i,<1.1.2a|>=1.1.1j,<1.1.2a|>=1.1.1k,<1.1.2a|>=1.1.1l,<1.1.2a|>=1.1.1n,<1.1.2a|>=1.1.1q,<1.1.2a']
+
+Package wasabi conflicts for:
+thinc -> wasabi[version='>=0.0.9,<1.1.0|>=0.4.0,<1.1.0|>=0.8.1,<1.1.0']
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> wasabi[version='>=0.8.1,<1.1.0|>=0.9.1,<1.1.0']
+spacy -> thinc[version='>=7.4.1'] -> wasabi[version='>=0.0.9,<1.1.0']
+wasabi
+spacy-model-en_core_web_sm -> spacy=3.3 -> wasabi[version='>=0.9.1,<1.1.0']
+spacy-loggers -> wasabi[version='>=0.8.1,<1.1.0']
+spacy -> wasabi[version='>=0.4.0,<1.1.0|>=0.8.1,<1.1.0|>=0.9.1,<1.1.0']
+
+Package vc conflicts for:
+smart_open -> python[version='>=3.9,<3.10.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+defaults/win-64::sqlite==3.33.0=h2a8f88b_0 -> vc[version='>=14.1,<15.0a0']
+defaults/win-64::wincertstore==0.2=py38_0 -> python[version='>=3.8,<3.9.0a0'] -> vc[version='>=14.1,<15.0a0']
+pysocks -> python[version='>=3.7,<3.8.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+numpy==1.20.2 -> mkl-service[version='>=2.3.0,<3.0a0'] -> vc[version='14.*|9.*']
+defaults/noarch::six==1.16.0=pyhd3eb1b0_0 -> python -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+openpyxl -> vc[version='>=14.1,<15.0a0']
+langcodes -> python[version='>=3.6'] -> vc[version='14.*|>=14.1,<15.0a0']
+cffi -> vc[version='14.*|9.*|>=14.1,<15.0a0']
+pathy -> python[version='>=3.7,<3.8.0a0'] -> vc[version='14.*|>=14.1,<15.0a0']
+wasabi -> python[version='>=3.8,<3.9.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> vc[version='>=14.1,<15.0a0']
+defaults/win-64::vc==14.2=h21ff451_1
+certifi -> python[version='>=3.8,<3.9.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+openpyxl -> python[version='>=3.7,<3.8.0a0'] -> vc[version='14.*|9.*']
+markupsafe -> vc[version='14.*|9.*|>=14,<15.0a0|>=14.1,<15.0a0']
+defaults/win-64::sqlite==3.33.0=h2a8f88b_0 -> zlib[version='>=1.2.11,<1.3.0a0'] -> vc[version='14.*|9.*']
+idna -> python[version='>=3.5'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> vc[version='>=14.1,<15.0a0']
+spacy-alignments -> python[version='>=3.7,<3.8.0a0'] -> vc=14
+win_inet_pton -> python[version='>=3.10,<3.11.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+brotlipy -> vc[version='>=14.1,<15.0a0']
+numpy-base==1.20.2 -> mkl-service[version='>=2.3.0,<3.0a0'] -> vc[version='14.*|9.*']
+defaults/noarch::python-dateutil==2.8.1=pyhd3eb1b0_0 -> python -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+srsly -> vc[version='>=14.1,<15.0a0']
+numpy==1.20.2 -> vc[version='>=14.1,<15.0a0']
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> vc[version='>=14.1,<15.0a0']
+srsly -> python[version='>=3.7,<3.8.0a0'] -> vc=14
+requests -> python[version='>=3.10,<3.11.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+pydantic -> vc[version='>=14,<15.0a0|>=14.1,<15.0a0']
+spacy -> vc[version='14.*|9.*|>=14.1,<15.0a0|>=14.2,<15.0a0']
+spacy-model-en_core_web_sm -> python[version='>=3.6'] -> vc[version='14.*|>=14.1,<15.0a0|>=14.2,<15.0a0']
+cymem -> vc[version='14.*|9.*|>=14.1,<15.0a0']
+spacy-legacy -> python[version='>=3.7,<3.8.0a0'] -> vc[version='14.*|>=14.1,<15.0a0']
+defaults/noarch::xlsxwriter==1.3.7=py_0 -> python -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+urllib3 -> brotlipy[version='>=0.6.0'] -> vc[version='14.*|9.*|>=14.1,<15.0a0']
+pyparsing -> python[version='>=3.10,<3.11.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+brotlipy -> cffi[version='>=1.0.0'] -> vc[version='14.*|9.*']
+msgpack-python -> vc[version='14.*|9.*|>=14.1,<15.0a0']
+jinja2 -> markupsafe[version='>=2.0'] -> vc[version='14.*|>=14.1,<15.0a0|>=14,<15.0a0|9.*']
+cython-blis -> numpy[version='>=1.16.6,<2.0a0'] -> vc[version='14.*|9.*']
+defaults/win-64::pip==20.3.3=py38haa95532_0 -> python[version='>=3.8,<3.9.0a0'] -> vc[version='>=14.1,<15.0a0']
+cython-blis -> vc[version='>=14.1,<15.0a0']
+defaults/win-64::mkl-service==2.3.0=py38h2bbff1b_1 -> vc[version='>=14.1,<15.0a0']
+thinc -> vc[version='14.*|9.*|>=14.1,<15.0a0']
+defaults/win-64::setuptools==52.0.0=py38haa95532_0 -> python[version='>=3.8,<3.9.0a0'] -> vc[version='>=14.1,<15.0a0']
+typing-extensions -> python[version='>=3.9,<3.10.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+murmurhash -> vc[version='14.*|9.*|>=14.1,<15.0a0']
+openssl -> vc[version='14.*|9.*|>=14.1,<15.0a0']
+colorama -> python[version='>=3.9,<3.10.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+spacy-alignments -> vc[version='>=14.1,<15.0a0']
+click -> python[version='>=3.8,<3.9.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+et_xmlfile -> python[version='>=3.10,<3.11.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> vc[version='>=14.1,<15.0a0']
+typing_extensions -> python[version='>=3.8,<3.9.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+pycparser -> python[version='>=3.6'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+shellingham -> python -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+charset-normalizer -> python[version='>=3.5'] -> vc[version='14.*|>=14.1,<15.0a0']
+defaults/noarch::wheel==0.36.2=pyhd3eb1b0_0 -> python -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+preshed -> vc[version='14.*|9.*|>=14.1,<15.0a0']
+defaults/noarch::pytz==2021.1=pyhd3eb1b0_0 -> python -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> mkl-service[version='>=2.3.0,<3.0a0'] -> vc=9
+spacy-loggers -> python[version='>=3.6'] -> vc[version='14.*|>=14.1,<15.0a0']
+defaults/win-64::zlib==1.2.11=h62dcd97_4 -> vc[version='>=14.1,<15.0a0']
+cryptography -> vc[version='14.*|9.*|>=14.1,<15.0a0']
+catalogue -> python[version='>=3.8,<3.9.0a0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+numpy-base==1.20.2 -> vc[version='>=14.1,<15.0a0']
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> mkl-service[version='>=2.3.0,<3.0a0'] -> vc=9
+defaults|defaults/win-64::vc==14.2=h21ff451_1
+typer -> python[version='>=3.10,<3.11.0a0'] -> vc[version='14.*|>=14.1,<15.0a0']
+packaging -> python[version='>=3.6'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+pyopenssl -> cryptography[version='>=35.0'] -> vc[version='14.*|>=14.1,<15.0a0|9.*']
+pydantic -> python[version='>=3.7,<3.8.0a0'] -> vc=14
+
+Package tk conflicts for:
+defaults/noarch::six==1.16.0=pyhd3eb1b0_0 -> python -> tk[version='>=8.6.11,<8.7.0a0']
+spacy-model-en_core_web_sm -> python[version='>=3.6'] -> tk[version='>=8.6.11,<8.7.0a0']
+et_xmlfile -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+pydantic -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+thinc -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+catalogue -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+defaults/noarch::python-dateutil==2.8.1=pyhd3eb1b0_0 -> python -> tk[version='>=8.6.11,<8.7.0a0']
+pycparser -> python[version='>=3.6'] -> tk[version='>=8.6.11,<8.7.0a0']
+cython-blis -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+markupsafe -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+langcodes -> python[version='>=3.6'] -> tk[version='>=8.6.11,<8.7.0a0']
+brotlipy -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+charset-normalizer -> python[version='>=3.5'] -> tk[version='>=8.6.11,<8.7.0a0']
+typing-extensions -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+spacy -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+spacy-loggers -> python[version='>=3.6'] -> tk[version='>=8.6.11,<8.7.0a0']
+murmurhash -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+defaults/noarch::wheel==0.36.2=pyhd3eb1b0_0 -> python -> tk[version='>=8.6.11,<8.7.0a0']
+pyopenssl -> python[version='>=3.6'] -> tk[version='>=8.6.11,<8.7.0a0']
+typing_extensions -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+idna -> python[version='>=3.5'] -> tk[version='>=8.6.11,<8.7.0a0']
+typer -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+srsly -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+cryptography -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+cffi -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+smart_open -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+pysocks -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+certifi -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+win_inet_pton -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+pathy -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+requests -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+spacy-transformers -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+click -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+spacy-alignments -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+pyparsing -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+jinja2 -> python[version='>=3.6'] -> tk[version='>=8.6.11,<8.7.0a0']
+defaults/noarch::xlsxwriter==1.3.7=py_0 -> python -> tk[version='>=8.6.11,<8.7.0a0']
+colorama -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+urllib3 -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+spacy-legacy -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+cymem -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+preshed -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+defaults/noarch::pytz==2021.1=pyhd3eb1b0_0 -> python -> tk[version='>=8.6.11,<8.7.0a0']
+shellingham -> python -> tk[version='>=8.6.11,<8.7.0a0']
+tqdm -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+openpyxl -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+msgpack-python -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+wasabi -> python[version='>=3.10,<3.11.0a0'] -> tk[version='>=8.6.11,<8.7.0a0']
+packaging -> python[version='>=3.6'] -> tk[version='>=8.6.11,<8.7.0a0']
+
+Package urllib3 conflicts for:
+requests -> urllib3[version='>=1.21.1,<1.23|>=1.21.1,<1.24|>=1.21.1,<1.25|>=1.21.1,<1.26,!=1.25.0,!=1.25.1|>=1.21.1,<1.27']
+spacy -> requests[version='>=2.13.0,<3.0.0'] -> urllib3[version='>=1.21.1,<1.23|>=1.21.1,<1.24|>=1.21.1,<1.25|>=1.21.1,<1.26,!=1.25.0,!=1.25.1|>=1.21.1,<1.27']
+urllib3
+smart_open -> requests -> urllib3[version='>=1.21.1,<1.23|>=1.21.1,<1.24|>=1.21.1,<1.25|>=1.21.1,<1.26,!=1.25.0,!=1.25.1|>=1.21.1,<1.27']
+
+Package vs2008_runtime conflicts for:
+defaults/noarch::wheel==0.36.2=pyhd3eb1b0_0 -> python -> vs2008_runtime
+pycparser -> python -> vs2008_runtime
+jinja2 -> python -> vs2008_runtime
+defaults/noarch::python-dateutil==2.8.1=pyhd3eb1b0_0 -> python -> vs2008_runtime
+typing-extensions -> python -> vs2008_runtime
+spacy -> python[version='>=2.7,<2.8.0a0'] -> vs2008_runtime[version='>=9.0.30729.1,<10.0a0']
+certifi -> python -> vs2008_runtime
+defaults/noarch::six==1.16.0=pyhd3eb1b0_0 -> python -> vs2008_runtime
+catalogue -> python -> vs2008_runtime
+cryptography -> python[version='>=2.7,<2.8.0a0'] -> vs2008_runtime[version='>=9.0.30729.1,<10.0a0']
+preshed -> python[version='>=2.7,<2.8.0a0'] -> vs2008_runtime[version='>=9.0.30729.1,<10.0a0']
+murmurhash -> python[version='>=2.7,<2.8.0a0'] -> vs2008_runtime[version='>=9.0.30729.1,<10.0a0']
+idna -> python -> vs2008_runtime
+pyopenssl -> python -> vs2008_runtime
+msgpack-python -> python[version='>=2.7,<2.8.0a0'] -> vs2008_runtime[version='>=9.0.30729.1,<10.0a0']
+colorama -> python -> vs2008_runtime
+pyparsing -> python -> vs2008_runtime
+smart_open -> python -> vs2008_runtime
+typing_extensions -> python[version='>=2.7,<2.8.0a0'] -> vs2008_runtime
+requests -> python -> vs2008_runtime
+cffi -> python[version='>=2.7,<2.8.0a0'] -> vs2008_runtime[version='>=9.0.30729.1,<10.0a0']
+defaults/noarch::xlsxwriter==1.3.7=py_0 -> python -> vs2008_runtime
+shellingham -> python -> vs2008_runtime
+win_inet_pton -> python[version='>=2.7,<2.8.0a0'] -> vs2008_runtime
+pysocks -> python[version='>=2.7,<2.8.0a0'] -> vs2008_runtime
+thinc -> python[version='>=2.7,<2.8.0a0'] -> vs2008_runtime[version='>=9.0.30729.1,<10.0a0']
+tqdm -> python[version='>=2.7'] -> vs2008_runtime
+openpyxl -> python -> vs2008_runtime
+cymem -> python[version='>=2.7,<2.8.0a0'] -> vs2008_runtime[version='>=9.0.30729.1,<10.0a0']
+click -> python -> vs2008_runtime
+packaging -> python -> vs2008_runtime
+et_xmlfile -> python -> vs2008_runtime
+defaults/noarch::pytz==2021.1=pyhd3eb1b0_0 -> python -> vs2008_runtime
+wasabi -> python -> vs2008_runtime
+urllib3 -> python[version='<4.0'] -> vs2008_runtime
+markupsafe -> python[version='>=2.7,<2.8.0a0'] -> vs2008_runtime[version='>=9.0.30729.1,<10.0a0']
+openssl -> vc=9 -> vs2008_runtime[version='>=9.0.30729.1,<10.0a0']
+
+Package setuptools conflicts for:
+spacy-model-en_core_web_sm -> setuptools
+jinja2 -> setuptools
+defaults|defaults/win-64::setuptools==52.0.0=py38haa95532_0
+defaults/win-64::setuptools==52.0.0=py38haa95532_0
+thinc -> setuptools
+spacy -> setuptools
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> pip -> setuptools
+defaults/win-64::pip==20.3.3=py38haa95532_0 -> setuptools
+
+Package mkl conflicts for:
+cython-blis -> numpy[version='>=1.21.5,<2.0a0'] -> mkl[version='>=2019.1,<2021.0a0|>=2019.3,<2021.0a0|>=2019.4,<2020.0a0|>=2019.4,<2021.0a0|>=2021.2.0,<2022.0a0|>=2021.3.0,<2022.0a0|>=2021.4.0,<2022.0a0']
+numpy-base==1.20.2 -> mkl-service[version='>=2.3.0,<3.0a0'] -> mkl[version='>=2019.4,<2021.0a0|>=2021.4.0,<2022.0a0']
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> mkl[version='>=2021.2.0,<2022.0a0']
+numpy==1.20.2 -> mkl-service[version='>=2.3.0,<3.0a0'] -> mkl[version='>=2018.0.3,<2019.0a0|>=2019.1,<2021.0a0|>=2019.3,<2021.0a0|>=2019.4,<2021.0a0|>=2021.4.0,<2022.0a0|>=2021.3.0,<2022.0a0|>=2019.4,<2020.0a0|>=2020.1,<2021.0a0']
+thinc -> mkl[version='>=2018.0.3,<2019.0a0|>=2019.4,<2021.0a0']
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> mkl[version='>=2021.2.0,<2022.0a0']
+numpy==1.20.2 -> mkl[version='>=2021.2.0,<2022.0a0']
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> numpy[version='>=1.20.2,<2.0a0'] -> mkl[version='>=2021.2.0,<2022.0a0|>=2021.3.0,<2022.0a0|>=2021.4.0,<2022.0a0']
+spacy -> numpy[version='>=1.16.6,<2.0a0'] -> mkl[version='>=2018.0.0,<2019.0a0|>=2018.0.1,<2019.0a0|>=2018.0.2,<2019.0a0|>=2018.0.3,<2019.0a0|>=2019.1,<2021.0a0|>=2019.3,<2021.0a0|>=2019.4,<2020.0a0|>=2019.4,<2021.0a0|>=2021.2.0,<2022.0a0|>=2021.3.0,<2022.0a0|>=2021.4.0,<2022.0a0']
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> mkl-service[version='>=2.3.0,<3.0a0'] -> mkl[version='>=2019.1,<2021.0a0|>=2019.3,<2021.0a0|>=2019.4,<2021.0a0|>=2021.4.0,<2022.0a0|>=2021.3.0,<2022.0a0|>=2019.4,<2020.0a0']
+defaults/win-64::mkl-service==2.3.0=py38h2bbff1b_1 -> mkl[version='>=2021.2.0,<2022.0a0']
+mkl==2021.2.0
+thinc -> numpy[version='>=1.16.6,<2.0a0'] -> mkl[version='>=2018.0.0,<2019.0a0|>=2018.0.1,<2019.0a0|>=2018.0.2,<2019.0a0|>=2019.1,<2021.0a0|>=2019.3,<2021.0a0|>=2019.4,<2020.0a0|>=2021.2.0,<2022.0a0|>=2021.3.0,<2022.0a0|>=2021.4.0,<2022.0a0']
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> mkl-service[version='>=2.3.0,<3.0a0'] -> mkl[version='>=2019.1,<2021.0a0|>=2019.3,<2021.0a0|>=2019.4,<2021.0a0|>=2021.4.0,<2022.0a0|>=2021.3.0,<2022.0a0|>=2019.4,<2020.0a0']
+numpy-base==1.20.2 -> mkl[version='>=2021.2.0,<2022.0a0']
+
+Package typing_extensions conflicts for:
+catalogue -> typing-extensions[version='>=3.6.4'] -> typing_extensions[version='3.10.0.0|3.10.0.2|4.1.1|4.3.0|3.7.4.3|3.7.4.3|3.7.4.2|3.7.4.1|3.7.4',build='py_0|pyh06a4308_0|pyh06a4308_0|pyh06a4308_0|py38haa95532_0|py310haa95532_0|py37haa95532_0|py39haa95532_0|pyh06a4308_0|py_0|py38_0|py36_0']
+thinc -> typing_extensions[version='>=3.7.4.1,<4.0.0.0']
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> typing_extensions[version='>=3.7.4,<4.0.0.0|>=3.7.4.1,<4.2.0']
+click -> importlib-metadata -> typing_extensions[version='>=3.6.4']
+typing-extensions -> typing_extensions[version='3.10.0.0|3.10.0.2|4.1.1|4.3.0|3.7.4.3|3.7.4.3|3.7.4.2|3.7.4.1|3.7.4',build='py_0|pyh06a4308_0|pyh06a4308_0|pyh06a4308_0|py38haa95532_0|py310haa95532_0|py37haa95532_0|py39haa95532_0|pyh06a4308_0|py_0|py38_0|py36_0']
+pydantic -> typing-extensions[version='>=3.7.4.3'] -> typing_extensions[version='3.10.0.0|3.10.0.2|4.1.1|4.3.0|3.7.4.3|3.7.4.3',build='pyh06a4308_0|pyh06a4308_0|pyh06a4308_0|py38haa95532_0|py310haa95532_0|py37haa95532_0|py39haa95532_0|pyh06a4308_0|py_0']
+spacy -> thinc[version='>=8.0.14,<8.1.0'] -> typing_extensions[version='>=3.7.4.1,<4.0.0.0']
+spacy -> typing_extensions[version='>=3.7.4,<4.0.0.0|>=3.7.4.1,<4.2.0']
+spacy-model-en_core_web_sm -> spacy=3.3 -> typing_extensions[version='>=3.7.4,<4.0.0.0|>=3.7.4.1,<4.2.0']
+typing_extensions
+
+Package pip conflicts for:
+cryptography -> python[version='>=3.8,<3.9.0a0'] -> pip
+spacy-model-en_core_web_sm -> python[version='>=3.6'] -> pip
+catalogue -> python[version='>=3.8,<3.9.0a0'] -> pip
+smart_open -> python[version='>=3.9,<3.10.0a0'] -> pip
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> python[version='>=3.8,<3.9.0a0'] -> pip
+charset-normalizer -> python[version='>=3.5'] -> pip
+defaults/noarch::six==1.16.0=pyhd3eb1b0_0 -> python -> pip
+defaults/win-64::mkl-service==2.3.0=py38h2bbff1b_1 -> python[version='>=3.8,<3.9.0a0'] -> pip
+defaults/noarch::pytz==2021.1=pyhd3eb1b0_0 -> python -> pip
+spacy-loggers -> python[version='>=3.6'] -> pip
+typer -> python[version='>=3.10,<3.11.0a0'] -> pip
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> python[version='>=3.8,<3.9.0a0'] -> pip
+pycparser -> python[version='>=3.6'] -> pip
+defaults/noarch::wheel==0.36.2=pyhd3eb1b0_0 -> python -> pip
+pyopenssl -> python[version='>=3.6'] -> pip
+defaults/noarch::python-dateutil==2.8.1=pyhd3eb1b0_0 -> python -> pip
+packaging -> python[version='>=3.6'] -> pip
+cymem -> python[version='>=3.8,<3.9.0a0'] -> pip
+pysocks -> python[version='>=3.7,<3.8.0a0'] -> pip
+cython-blis -> python[version='>=3.10,<3.11.0a0'] -> pip
+pathy -> python[version='>=3.7,<3.8.0a0'] -> pip
+defaults/win-64::wincertstore==0.2=py38_0 -> python[version='>=3.8,<3.9.0a0'] -> pip
+spacy -> pip[version='>=9.0.0,<10.0.0']
+defaults|defaults/win-64::pip==20.3.3=py38haa95532_0
+spacy-alignments -> python[version='>=3.10,<3.11.0a0'] -> pip
+urllib3 -> python[version='>=3.7,<3.8.0a0'] -> pip
+jinja2 -> python[version='>=3.6'] -> pip
+cffi -> python[version='>=3.9,<3.10.0a0'] -> pip
+markupsafe -> python[version='>=3.9,<3.10.0a0'] -> pip
+numpy-base==1.20.2 -> python[version='>=3.8,<3.9.0a0'] -> pip
+langcodes -> python[version='>=3.6'] -> pip
+preshed -> python[version='>=3.8,<3.9.0a0'] -> pip
+win_inet_pton -> python[version='>=3.10,<3.11.0a0'] -> pip
+idna -> python[version='>=3.5'] -> pip
+pydantic -> python[version='>=3.8,<3.9.0a0'] -> pip
+openpyxl -> python[version='>=3.10,<3.11.0a0'] -> pip
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> pip
+thinc -> python[version='>=3.8,<3.9.0a0'] -> pip
+typing-extensions -> python[version='>=3.9,<3.10.0a0'] -> pip
+spacy-legacy -> python[version='>=3.7,<3.8.0a0'] -> pip
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> python[version='>=3.8,<3.9.0a0'] -> pip
+srsly -> python[version='>=3.9,<3.10.0a0'] -> pip
+numpy==1.20.2 -> python[version='>=3.8,<3.9.0a0'] -> pip
+shellingham -> python -> pip
+msgpack-python -> python[version='>=3.10,<3.11.0a0'] -> pip
+colorama -> python[version='>=3.9,<3.10.0a0'] -> pip
+requests -> python[version='>=3.10,<3.11.0a0'] -> pip
+pyparsing -> python[version='>=3.10,<3.11.0a0'] -> pip
+defaults/noarch::xlsxwriter==1.3.7=py_0 -> python -> pip
+et_xmlfile -> python[version='>=3.10,<3.11.0a0'] -> pip
+click -> python[version='>=3.8,<3.9.0a0'] -> pip
+wasabi -> python[version='>=3.8,<3.9.0a0'] -> pip
+brotlipy -> python[version='>=3.8,<3.9.0a0'] -> pip
+defaults/win-64::setuptools==52.0.0=py38haa95532_0 -> python[version='>=3.8,<3.9.0a0'] -> pip
+typing_extensions -> python[version='>=3.8,<3.9.0a0'] -> pip
+spacy -> python[version='>=3.7,<3.8.0a0'] -> pip
+murmurhash -> python[version='>=3.7,<3.8.0a0'] -> pip
+certifi -> python[version='>=3.8,<3.9.0a0'] -> pip
+
+Package intel-openmp conflicts for:
+mkl==2021.2.0 -> intel-openmp=2021
+defaults/win-64::intel-openmp==2021.2.0=haa95532_616
+defaults|defaults/win-64::intel-openmp==2021.2.0=haa95532_616
+thinc -> mkl[version='>=2019.4,<2021.0a0'] -> intel-openmp
+numpy==1.20.2 -> mkl[version='>=2021.2.0,<2022.0a0'] -> intel-openmp=2021
+defaults/win-64::mkl-service==2.3.0=py38h2bbff1b_1 -> mkl[version='>=2021.2.0,<2022.0a0'] -> intel-openmp=2021
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> mkl[version='>=2021.2.0,<2022.0a0'] -> intel-openmp=2021
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> mkl[version='>=2021.2.0,<2022.0a0'] -> intel-openmp=2021
+numpy-base==1.20.2 -> mkl[version='>=2021.2.0,<2022.0a0'] -> intel-openmp=2021
+
+Package cymem conflicts for:
+thinc -> cymem[version='>=1.30,<1.32|>=2.0.2,<2.1.0|>=2.0.2,<3.0.0']
+preshed -> cymem[version='>=1.30,<1.32|>=2.0.2,<2.1.0']
+spacy-model-en_core_web_sm -> spacy=3.3 -> cymem[version='>=2.0.2,<2.1.0']
+cymem
+spacy -> cymem[version='>=1.30,<1.32.0|>=2.0.2,<2.1.0']
+spacy -> thinc[version='>=6.12.0,<6.13.0'] -> cymem[version='>=1.30,<1.32|>=2.0.2,<3.0.0']
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> cymem[version='>=2.0.2,<2.1.0']
+
+Package idna conflicts for:
+cryptography -> idna[version='>=2.1']
+urllib3 -> cryptography[version='>=1.3.4'] -> idna[version='>=2.1']
+idna
+requests -> urllib3[version='>=1.21.1,<1.27'] -> idna[version='>=2.0.0']
+spacy -> requests[version='>=2.13.0,<3.0.0'] -> idna[version='>=2.5,<2.7|>=2.5,<2.8|>=2.5,<2.9|>=2.5,<3|>=2.5,<4']
+requests -> idna[version='>=2.5,<2.7|>=2.5,<2.8|>=2.5,<2.9|>=2.5,<3|>=2.5,<4']
+pyopenssl -> cryptography[version='>=2.8'] -> idna[version='>=2.1']
+urllib3 -> idna[version='>=2.0.0']
+smart_open -> requests -> idna[version='>=2.5,<2.7|>=2.5,<2.8|>=2.5,<2.9|>=2.5,<3|>=2.5,<4']
+
+Package pathy conflicts for:
+spacy -> pathy[version='>=0.3.5']
+pathy
+spacy-model-en_core_web_sm -> spacy=3.3 -> pathy[version='>=0.3.5']
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> pathy[version='>=0.3.5']
+
+Package typing-extensions conflicts for:
+pydantic -> typing-extensions[version='>=3.7.4.3']
+typing-extensions
+srsly -> catalogue[version='>=2.0.3,<2.1.0'] -> typing-extensions[version='>=3.6.4']
+catalogue -> typing-extensions[version='>=3.6.4']
+spacy-transformers -> pytorch[version='>=1.6.0'] -> typing-extensions
+spacy -> catalogue[version='>=2.0.6,<2.1.0'] -> typing-extensions[version='>=3.6.4|>=3.7.4.3']
+thinc -> catalogue[version='>=2.0.4,<2.1.0'] -> typing-extensions[version='>=3.6.4|>=3.7.4.3']
+
+Package pathlib2 conflicts for:
+spacy -> pathlib2
+catalogue -> importlib_metadata[version='>=0.20'] -> pathlib2
+
+Package cryptography conflicts for:
+urllib3 -> cryptography[version='>=1.3.4']
+urllib3 -> pyopenssl[version='>=0.14'] -> cryptography[version='>=1.9|>=2.1.4|>=2.2.1|>=2.8|>=3.3|>=35.0']
+cryptography
+pyopenssl -> cryptography[version='>=1.9|>=2.1.4|>=2.2.1|>=2.8|>=3.3|>=35.0']
+requests -> urllib3[version='>=1.21.1,<1.27'] -> cryptography[version='>=1.3.4']
+
+Package asn1crypto conflicts for:
+cryptography -> asn1crypto[version='>=0.21.0']
+urllib3 -> cryptography[version='>=1.3.4'] -> asn1crypto[version='>=0.21.0']
+pyopenssl -> cryptography[version='>=2.8'] -> asn1crypto[version='>=0.21.0']
+
+Package tzdata conflicts for:
+smart_open -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+defaults/noarch::xlsxwriter==1.3.7=py_0 -> python -> tzdata
+thinc -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+preshed -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+et_xmlfile -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+shellingham -> python -> tzdata
+numpy==1.20.2 -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+typing_extensions -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+msgpack-python -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+spacy-model-en_core_web_sm -> python[version='>=3.6'] -> tzdata
+cython-blis -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+pathy -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+catalogue -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+defaults/noarch::six==1.16.0=pyhd3eb1b0_0 -> python -> tzdata
+murmurhash -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+spacy-legacy -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+charset-normalizer -> python[version='>=3.5'] -> tzdata
+spacy -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+tqdm -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+spacy-loggers -> python[version='>=3.6'] -> tzdata
+defaults/noarch::wheel==0.36.2=pyhd3eb1b0_0 -> python -> tzdata
+defaults/noarch::pytz==2021.1=pyhd3eb1b0_0 -> python -> tzdata
+brotlipy -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+cryptography -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+defaults/noarch::python-dateutil==2.8.1=pyhd3eb1b0_0 -> python -> tzdata
+idna -> python[version='>=3.5'] -> tzdata
+wasabi -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+click -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+pycparser -> python[version='>=3.6'] -> tzdata
+packaging -> python[version='>=3.6'] -> tzdata
+pysocks -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+spacy-transformers -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+pydantic -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+spacy-alignments -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+typer -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+certifi -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+pyopenssl -> python[version='>=3.6'] -> tzdata
+cffi -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+markupsafe -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+jinja2 -> python[version='>=3.6'] -> tzdata
+urllib3 -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+langcodes -> python[version='>=3.6'] -> tzdata
+requests -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+win_inet_pton -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+openpyxl -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+typing-extensions -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+srsly -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+pyparsing -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+cymem -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+numpy-base==1.20.2 -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+colorama -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+
+Package cython-blis conflicts for:
+spacy -> cython-blis[version='>=0.4.0,<0.8.0']
+spacy -> thinc[version='>=7.4.1'] -> cython-blis[version='>=0.4.0,<0.5.0']
+spacy-model-en_core_web_sm -> spacy=3.3 -> cython-blis[version='>=0.4.0,<0.8.0']
+thinc -> cython-blis[version='>=0.4.0,<0.5.0|>=0.4.0,<0.8.0']
+cython-blis
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> cython-blis[version='>=0.4.0,<0.8.0']
+
+Package sqlite conflicts for:
+defaults/noarch::wheel==0.36.2=pyhd3eb1b0_0 -> python -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> sqlite[version='>=3.33.0,<4.0a0']
+shellingham -> python -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+spacy-loggers -> python[version='>=3.6'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+typer -> python[version='>=3.10,<3.11.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.35.4,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+defaults/noarch::pytz==2021.1=pyhd3eb1b0_0 -> python -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+defaults/noarch::python-dateutil==2.8.1=pyhd3eb1b0_0 -> python -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+cryptography -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+colorama -> python[version='>=3.9,<3.10.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.38.2,<4.0a0|>=3.39.2,<4.0a0|>=3.35.1,<4.0a0']
+numpy-base==1.20.2 -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0']
+spacy-legacy -> python[version='>=3.7,<3.8.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.4,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.35.1,<4.0a0']
+packaging -> python[version='>=3.6'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+markupsafe -> python[version='>=3.9,<3.10.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.38.2,<4.0a0|>=3.39.2,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.35.1,<4.0a0']
+cymem -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+cython-blis -> python[version='>=3.10,<3.11.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+defaults/noarch::six==1.16.0=pyhd3eb1b0_0 -> python -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+urllib3 -> python[version='>=3.7,<3.8.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.35.4,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+defaults/win-64::wincertstore==0.2=py38_0 -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0']
+defaults|defaults/win-64::sqlite==3.33.0=h2a8f88b_0
+defaults/win-64::mkl-service==2.3.0=py38h2bbff1b_1 -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0']
+typing-extensions -> python[version='>=3.9,<3.10.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.38.2,<4.0a0|>=3.39.2,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.35.1,<4.0a0']
+jinja2 -> python[version='>=3.6'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+pyopenssl -> python[version='>=3.6'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+pycparser -> python[version='>=3.6'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+pysocks -> python[version='>=3.7,<3.8.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.4,<4.0a0|>=3.35.1,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0']
+pyparsing -> python[version='>=3.10,<3.11.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.35.4,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+certifi -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+srsly -> python[version='>=3.9,<3.10.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.38.2,<4.0a0|>=3.39.2,<4.0a0|>=3.35.1,<4.0a0']
+idna -> python[version='>=3.5'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0']
+langcodes -> python[version='>=3.6'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+preshed -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+openpyxl -> python[version='>=3.10,<3.11.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+defaults/win-64::setuptools==52.0.0=py38haa95532_0 -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0']
+murmurhash -> python[version='>=3.7,<3.8.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.4,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.35.1,<4.0a0']
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0']
+numpy==1.20.2 -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0']
+spacy-alignments -> python[version='>=3.10,<3.11.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.35.4,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0']
+defaults/noarch::xlsxwriter==1.3.7=py_0 -> python -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+win_inet_pton -> python[version='>=3.10,<3.11.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.35.1,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.35.4,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.28.0,<4.0a0|>=3.27.2,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0']
+wasabi -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+pydantic -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+defaults/win-64::pip==20.3.3=py38haa95532_0 -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0']
+defaults/win-64::sqlite==3.33.0=h2a8f88b_0
+thinc -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+smart_open -> python[version='>=3.9,<3.10.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.38.2,<4.0a0|>=3.39.2,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.35.1,<4.0a0']
+brotlipy -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+et_xmlfile -> python[version='>=3.10,<3.11.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0|>=3.28.0,<4.0a0|>=3.27.2,<4.0a0']
+typing_extensions -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+spacy -> python[version='>=3.7,<3.8.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.35.4,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+msgpack-python -> python[version='>=3.10,<3.11.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.35.4,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+catalogue -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+spacy-model-en_core_web_sm -> python[version='>=3.6'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+click -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+requests -> python[version='>=3.10,<3.11.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.35.1,<4.0a0']
+pathy -> python[version='>=3.7,<3.8.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.33.0,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.4,<4.0a0|>=3.32.3,<4.0a0|>=3.30.0,<4.0a0|>=3.35.1,<4.0a0']
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> python[version='>=3.8,<3.9.0a0'] -> sqlite[version='>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0']
+charset-normalizer -> python[version='>=3.5'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.39.2,<4.0a0|>=3.38.2,<4.0a0|>=3.35.1,<4.0a0']
+cffi -> python[version='>=3.9,<3.10.0a0'] -> sqlite[version='>=3.25.3,<4.0a0|>=3.26.0,<4.0a0|>=3.27.2,<4.0a0|>=3.28.0,<4.0a0|>=3.29.0,<4.0a0|>=3.30.0,<4.0a0|>=3.30.1,<4.0a0|>=3.31.1,<4.0a0|>=3.32.3,<4.0a0|>=3.33.0,<4.0a0|>=3.35.4,<4.0a0|>=3.36.0,<4.0a0|>=3.38.0,<4.0a0|>=3.38.2,<4.0a0|>=3.39.2,<4.0a0|>=3.35.1,<4.0a0']
+
+Package pysocks conflicts for:
+urllib3 -> pysocks[version='>=1.5.6,<2.0,!=1.5.7']
+requests -> urllib3[version='>=1.21.1,<1.27'] -> pysocks[version='>=1.5.6,<2.0,!=1.5.7']
+pysocks
+
+Package murmurhash conflicts for:
+thinc -> murmurhash[version='>=0.26,<0.27|>=0.28,<0.29|>=0.28,<0.29.0|>=0.28,<0.30|>=0.28,<1.1.0|>=0.28.0,<1.1.0|>=1.0.2,<1.1.0']
+spacy -> murmurhash[version='>=0.26,<0.27|>=0.28,<0.29|>=0.28,<1.1.0|>=0.28.0,<1.1.0']
+murmurhash
+preshed -> murmurhash[version='<1.1.0,>=0.28.0|>=0.28.0,<1.1.0']
+spacy-model-en_core_web_sm -> spacy=3.3 -> murmurhash[version='>=0.28.0,<1.1.0']
+spacy -> preshed[version='>=3.0.2,<3.1.0'] -> murmurhash[version='<1.1.0,>=0.28.0|>=1.0.2,<1.1.0|>=0.28,<0.29.0|>=0.28,<0.30']
+thinc -> preshed[version='>=3.0.2,<3.1.0'] -> murmurhash[version='<1.1.0,>=0.28.0']
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> murmurhash[version='>=0.28.0,<1.1.0']
+
+Package requests conflicts for:
+requests
+smart_open -> google-cloud-storage -> requests[version='>=2.18.0,<3.0.0dev']
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> pip -> requests
+spacy -> requests[version='>=2.13.0,<3.0.0']
+spacy-model-en_core_web_sm -> spacy=3.3 -> requests[version='>=2.13.0,<3.0.0']
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> requests[version='>=2.13.0,<3.0.0']
+smart_open -> requests
+pathy -> smart_open[version='>=5.0.0,<6.0.0'] -> requests
+spacy -> pip[version='>=9.0.0,<10.0.0'] -> requests
+
+Package zlib conflicts for:
+typer -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+spacy -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+spacy-loggers -> python[version='>=3.6'] -> zlib[version='>=1.2.11,<1.3.0a0']
+srsly -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+pydantic -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+murmurhash -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+pyopenssl -> python[version='>=3.6'] -> zlib[version='>=1.2.11,<1.3.0a0']
+cryptography -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+idna -> python[version='>=3.5'] -> zlib[version='>=1.2.11,<1.3.0a0']
+smart_open -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+cffi -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+defaults/noarch::python-dateutil==2.8.1=pyhd3eb1b0_0 -> python -> zlib[version='>=1.2.11,<1.3.0a0']
+win_inet_pton -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+pysocks -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+click -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+packaging -> python[version='>=3.6'] -> zlib[version='>=1.2.11,<1.3.0a0']
+spacy-alignments -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+jinja2 -> python[version='>=3.6'] -> zlib[version='>=1.2.11,<1.3.0a0']
+requests -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+defaults/noarch::xlsxwriter==1.3.7=py_0 -> python -> zlib[version='>=1.2.11,<1.3.0a0']
+et_xmlfile -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+colorama -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+preshed -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+defaults|defaults/win-64::zlib==1.2.11=h62dcd97_4
+pathy -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+cymem -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+defaults/noarch::pytz==2021.1=pyhd3eb1b0_0 -> python -> zlib[version='>=1.2.11,<1.3.0a0']
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> sqlite[version='>=3.33.0,<4.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+openpyxl -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+shellingham -> python -> zlib[version='>=1.2.11,<1.3.0a0']
+urllib3 -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+msgpack-python -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+wasabi -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+pyparsing -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+spacy-model-en_core_web_sm -> python[version='>=3.6'] -> zlib[version='>=1.2.11,<1.3.0a0']
+brotlipy -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+charset-normalizer -> python[version='>=3.5'] -> zlib[version='>=1.2.11,<1.3.0a0']
+typing_extensions -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+spacy-legacy -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+defaults/noarch::six==1.16.0=pyhd3eb1b0_0 -> python -> zlib[version='>=1.2.11,<1.3.0a0']
+defaults/win-64::zlib==1.2.11=h62dcd97_4
+thinc -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+typing-extensions -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+defaults/noarch::wheel==0.36.2=pyhd3eb1b0_0 -> python -> zlib[version='>=1.2.11,<1.3.0a0']
+certifi -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+pycparser -> python[version='>=3.6'] -> zlib[version='>=1.2.11,<1.3.0a0']
+defaults/win-64::sqlite==3.33.0=h2a8f88b_0 -> zlib[version='>=1.2.11,<1.3.0a0']
+catalogue -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+cython-blis -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+markupsafe -> python[version='>=3.10,<3.11.0a0'] -> zlib[version='>=1.2.11,<1.3.0a0']
+langcodes -> python[version='>=3.6'] -> zlib[version='>=1.2.11,<1.3.0a0']
+
+Package google-cloud-storage conflicts for:
+pathy -> smart_open[version='>=5.0.0,<6.0.0'] -> google-cloud-storage
+smart_open -> google-cloud-storage
+
+Package spacy-loggers conflicts for:
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> spacy-loggers[version='>=1.0.0,<2.0.0']
+spacy -> spacy-loggers[version='>=1.0.0,<2.0.0']
+spacy-model-en_core_web_sm -> spacy=3.3 -> spacy-loggers[version='>=1.0.0,<2.0.0']
+spacy-loggers
+
+Package brotlipy conflicts for:
+urllib3 -> brotlipy[version='>=0.6.0']
+requests -> urllib3[version='>=1.21.1,<1.27'] -> brotlipy[version='>=0.6.0']
+brotlipy
+
+Package six conflicts for:
+spacy -> jsonschema[version='>=2.6.0,<3.1.0'] -> six[version='>=1.10.0,<2.0.0|>=1.11.0']
+numpy-base==1.20.2 -> mkl-service[version='>=2.3.0,<3.0a0'] -> six
+pyopenssl -> six[version='>=1.5.2']
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> python-dateutil[version='>=2.7.3'] -> six[version='>=1.5']
+defaults/noarch::six==1.16.0=pyhd3eb1b0_0
+smart_open -> google-cloud-storage -> six
+packaging -> six
+defaults/win-64::mkl-service==2.3.0=py38h2bbff1b_1 -> six
+urllib3 -> cryptography[version='>=1.3.4'] -> six[version='>=1.4.1|>=1.5.2']
+defaults|defaults/noarch::six==1.16.0=pyhd3eb1b0_0
+defaults/noarch::python-dateutil==2.8.1=pyhd3eb1b0_0 -> six[version='>=1.5']
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> mkl-service[version='>=2.3.0,<3.0a0'] -> six
+cryptography -> six[version='>=1.4.1']
+numpy==1.20.2 -> mkl-service[version='>=2.3.0,<3.0a0'] -> six
+thinc -> six[version='>=1.10.0,<2.0.0']
+pyopenssl -> cryptography[version='>=3.3'] -> six[version='>=1.4.1']
+spacy -> six
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> mkl-service[version='>=2.3.0,<3.0a0'] -> six
+
+Package typer conflicts for:
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> typer[version='>=0.3.0,<0.5.0|>=0.3.2,<0.5.0']
+typer
+spacy-model-en_core_web_sm -> spacy=3.3 -> typer[version='>=0.3.0,<0.5.0']
+spacy -> typer[version='>=0.3.0,<0.5.0|>=0.3.2,<0.5.0']
+pathy -> typer[version='>=0.3.0,<1.0.0']
+spacy -> pathy[version='>=0.3.5'] -> typer[version='>=0.3.0,<1.0.0']
+
+Package zipp conflicts for:
+spacy -> catalogue[version='>=2.0.6,<2.1.0'] -> zipp[version='>=0.5']
+thinc -> catalogue[version='>=2.0.4,<2.1.0'] -> zipp[version='>=0.5']
+catalogue -> zipp[version='>=0.5']
+srsly -> catalogue[version='>=2.0.3,<2.1.0'] -> zipp[version='>=0.5']
+click -> importlib-metadata -> zipp[version='>=0.5']
+
+Package jinja2 conflicts for:
+spacy -> jinja2
+spacy-model-en_core_web_sm -> spacy=3.3 -> jinja2
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> jinja2
+jinja2
+
+Package langcodes conflicts for:
+spacy-model-en_core_web_sm -> spacy=3.3 -> langcodes[version='>=3.2.0,<4.0.0']
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> langcodes[version='>=3.2.0,<4.0.0']
+spacy -> langcodes[version='>=3.2.0,<4.0.0']
+langcodes
+
+Package certifi conflicts for:
+thinc -> setuptools -> certifi[version='>=2016.09|>=2016.9.26']
+certifi
+defaults/win-64::setuptools==52.0.0=py38haa95532_0 -> certifi[version='>=2016.9.26']
+spacy -> requests[version='>=2.13.0,<3.0.0'] -> certifi[version='>=2016.09|>=2016.9.26|>=2017.4.17']
+urllib3 -> certifi
+jinja2 -> setuptools -> certifi[version='>=2016.09|>=2016.9.26']
+requests -> certifi[version='>=2017.4.17']
+requests -> urllib3[version='>=1.21.1,<1.27'] -> certifi
+defaults/win-64::pip==20.3.3=py38haa95532_0 -> setuptools -> certifi[version='>=2016.09|>=2016.9.26']
+smart_open -> requests -> certifi[version='>=2017.4.17']
+spacy-model-en_core_web_sm -> setuptools -> certifi[version='>=2016.09|>=2016.9.26']
+
+Package chardet conflicts for:
+smart_open -> requests -> chardet[version='>=3.0.2,<3.1.0|>=3.0.2,<4|>=3.0.2,<5']
+spacy -> requests[version='>=2.13.0,<3.0.0'] -> chardet[version='>=3.0.2,<3.1.0|>=3.0.2,<4|>=3.0.2,<5']
+requests -> chardet[version='>=3.0.2,<3.1.0|>=3.0.2,<4|>=3.0.2,<5']
+
+Package wheel conflicts for:
+spacy -> pip[version='>=9.0.0,<10.0.0'] -> wheel
+defaults/win-64::pip==20.3.3=py38haa95532_0 -> wheel
+defaults|defaults/noarch::wheel==0.36.2=pyhd3eb1b0_0
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> pip -> wheel
+defaults/noarch::wheel==0.36.2=pyhd3eb1b0_0
+
+Package win_inet_pton conflicts for:
+urllib3 -> pysocks[version='>=1.5.6,<2.0,!=1.5.7'] -> win_inet_pton
+pysocks -> win_inet_pton
+win_inet_pton
+
+Package python-dateutil conflicts for:
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> python-dateutil[version='>=2.7.3']
+defaults/noarch::python-dateutil==2.8.1=pyhd3eb1b0_0
+defaults|defaults/noarch::python-dateutil==2.8.1=pyhd3eb1b0_0
+
+Package numpy conflicts for:
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> numpy[version='>=1.16,<2.0a0']
+thinc -> numpy[version='>=1.11.3,<2.0a0|>=1.16.6,<2.0a0|>=1.21.5,<2.0a0|>=1.21.2,<2.0a0']
+cython-blis -> numpy[version='>=1.16|>=1.16.6,<2.0a0|>=1.21.5,<2.0a0']
+thinc -> cython-blis[version='>=0.4.0,<0.8.0'] -> numpy[version='>=1.16|>=1.9.0']
+spacy -> numpy[version='>=1.11.3,<2.0a0|>=1.16.6,<2.0a0|>=1.21.5,<2.0a0|>=1.21.2,<2.0a0']
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> numpy[version='>=1.20.2,<2.0a0']
+spacy-model-en_core_web_sm -> spacy=3.3 -> numpy[version='>=1.16.6,<2.0a0|>=1.21.5,<2.0a0']
+spacy -> cython-blis[version='>=0.4.0,<0.8.0'] -> numpy[version='>=1.16|>=1.9.0']
+numpy==1.20.2
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> numpy[version='>=1.16,<2.0a0']
+
+Package wincertstore conflicts for:
+spacy-model-en_core_web_sm -> setuptools -> wincertstore[version='>=0.2']
+defaults/win-64::wincertstore==0.2=py38_0
+thinc -> setuptools -> wincertstore[version='>=0.2']
+defaults|defaults/win-64::wincertstore==0.2=py38_0
+jinja2 -> setuptools -> wincertstore[version='>=0.2']
+spacy -> setuptools -> wincertstore[version='>=0.2']
+defaults/win-64::pip==20.3.3=py38haa95532_0 -> setuptools -> wincertstore[version='>=0.2']
+defaults/win-64::setuptools==52.0.0=py38haa95532_0 -> wincertstore[version='>=0.2']
+
+Package numpy-base conflicts for:
+spacy -> numpy[version='>=1.16.6,<2.0a0'] -> numpy-base[version='1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.14.3|1.14.3|1.14.3|1.14.4|1.14.4|1.14.4|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.15.0|1.15.0|1.15.0|1.15.0|1.15.1|1.15.1|1.15.1|1.15.1|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.3|1.15.3|1.15.3|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.2|1.16.2|1.16.2|1.16.3|1.16.3|1.16.3|1.16.4|1.16.4|1.16.5|1.16.5|1.16.5|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.17.2.*|1.17.3.*|1.17.4.*|1.18.1.*|1.18.5.*|1.19.1|1.19.1|1.19.1|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.20.1|1.20.1|1.20.1|1.20.2|1.20.2|1.20.2|1.20.3|1.20.3|1.20.3|1.21.2|1.21.2|1.21.2|1.21.2|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.22.3|1.22.3|1.22.3|1.23.1|1.17.0|1.17.0',build='py27h0bb1d87_7|py36h5c71026_7|py37h5c71026_7|py36h5c71026_8|py37h5c71026_8|py37h4a99626_9|py27hfef472a_9|py37h8128ebf_9|py35h8128ebf_9|py37h8128ebf_10|py27h2753ae9_10|py27hb1d0314_11|py36h555522e_1|py35h5c71026_0|py35h5c71026_0|py36h5c71026_0|py37h5c71026_0|py27h0bb1d87_1|py36h5c71026_1|py37h5c71026_1|py36h5c71026_2|py37h5c71026_2|py27h0bb1d87_2|py27h0bb1d87_3|py27h0bb1d87_4|py35h4a99626_4|py36h8128ebf_4|py38hc3f5095_4|py37hc3f5095_5|py36hc3f5095_5|py35h4a99626_0|py36h4a99626_0|py27hfef472a_0|py37h8128ebf_0|py35h8128ebf_0|py27h2753ae9_0|py36h8128ebf_0|py27h2753ae9_0|py37h8128ebf_0|py37h8128ebf_0|py27h2753ae9_0|py37h8128ebf_0|py27h2753ae9_0|py36hc3f5095_0|py27hb1d0314_0|py27hb1d0314_0|py36hc3f5095_0|py36hc3f5095_1|py36hc3f5095_1|py27hb1d0314_1|py36hc3f5095_0|py27hb1d0314_0|py36hc3f5095_0|py27hb1d0314_0|py36hc3f5095_0|py38hc3f5095_0|py27hb1d0314_0|py36h5bb6eb2_3|py38h5bb6eb2_3|py38h378b42e_4|py36ha3acd2a_0|py37h5bb6eb2_1|py37haf7ebc8_0|py39haf7ebc8_0|py38haf7ebc8_0|py38hc2deb75_0|py37hc2deb75_0|py38hc2deb75_0|py37h0829f74_0|py310h0829f74_0|py310hedd7904_0|py38hc2deb75_0|py38hca35cd5_1|py39hca35cd5_1|py39hca35cd5_2|py310h206c741_3|py38hca35cd5_0|py310h206c741_0|py39hca35cd5_0|py38hca35cd5_0|py310h206c741_0|py39hca35cd5_0|py38hca35cd5_3|py37hca35cd5_3|py39hca35cd5_3|py37hca35cd5_2|py310h206c741_2|py38hca35cd5_2|py310h206c741_1|py37hca35cd5_1|py37hc2deb75_0|py39hc2deb75_0|py38h0829f74_0|py39h0829f74_0|py39hc2deb75_0|py39hc2deb75_0|py37hc2deb75_0|py38h5bb6eb2_1|py39h5bb6eb2_1|py39hbd0edd7_0|py37ha3acd2a_0|py38ha3acd2a_0|py36ha3acd2a_0|py37ha3acd2a_0|py38ha3acd2a_0|py37h378b42e_4|py39h378b42e_4|py39h5bb6eb2_3|py37h5bb6eb2_3|py39h2e04a8b_1|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0|py27hb1d0314_0|py37hc3f5095_1|py36hc3f5095_0|py37hc3f5095_0|py27hb1d0314_0|py27hb1d0314_1|py37hc3f5095_1|py37hc3f5095_0|py37hc3f5095_0|py36h8128ebf_0|py36h8128ebf_0|py27h2753ae9_1|py36h8128ebf_0|py35h8128ebf_0|py37h4a99626_0|py27hb1d0314_5|py35h8128ebf_4|py27h2753ae9_4|py37h8128ebf_4|py36h5c71026_4|py37h5c71026_4|py37h5c71026_3|py36h5c71026_3|py27h0bb1d87_0|py27h0bb1d87_0|py36h5c71026_0|py27h917549b_1|py35h555522e_1|py38hc3f5095_12|py36hc3f5095_12|py27hb1d0314_12|py37hc3f5095_12|py36h2a9b21d_11|py37h2a9b21d_11|py37h8128ebf_11|py36h8128ebf_11|py36h8128ebf_10|py35h8128ebf_10|py27h2753ae9_9|py36h8128ebf_9|py36h4a99626_9|py35h4a99626_9|py35h4a99626_8|py27h0bb1d87_8']
+numpy-base==1.20.2
+thinc -> numpy[version='>=1.16.6,<2.0a0'] -> numpy-base[version='1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.14.3|1.14.3|1.14.3|1.14.4|1.14.4|1.14.4|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.15.0|1.15.0|1.15.0|1.15.0|1.15.1|1.15.1|1.15.1|1.15.1|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.3|1.15.3|1.15.3|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.2|1.16.2|1.16.2|1.16.3|1.16.3|1.16.3|1.16.4|1.16.4|1.16.5|1.16.5|1.16.5|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.17.2.*|1.17.3.*|1.17.4.*|1.18.1.*|1.18.5.*|1.19.1|1.19.1|1.19.1|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.20.1|1.20.1|1.20.1|1.20.2|1.20.2|1.20.2|1.20.3|1.20.3|1.20.3|1.21.2|1.21.2|1.21.2|1.21.2|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.22.3|1.22.3|1.22.3|1.23.1|1.17.0|1.17.0',build='py27h0bb1d87_7|py36h5c71026_7|py37h5c71026_7|py36h5c71026_8|py37h5c71026_8|py37h4a99626_9|py27hfef472a_9|py37h8128ebf_9|py35h8128ebf_9|py37h8128ebf_10|py27h2753ae9_10|py27hb1d0314_11|py36h555522e_1|py35h5c71026_0|py35h5c71026_0|py36h5c71026_0|py37h5c71026_0|py27h0bb1d87_1|py36h5c71026_1|py37h5c71026_1|py36h5c71026_2|py37h5c71026_2|py27h0bb1d87_2|py27h0bb1d87_3|py27h0bb1d87_4|py35h4a99626_4|py36h8128ebf_4|py38hc3f5095_4|py37hc3f5095_5|py36hc3f5095_5|py35h4a99626_0|py36h4a99626_0|py27hfef472a_0|py37h8128ebf_0|py35h8128ebf_0|py27h2753ae9_0|py36h8128ebf_0|py27h2753ae9_0|py37h8128ebf_0|py37h8128ebf_0|py27h2753ae9_0|py37h8128ebf_0|py27h2753ae9_0|py36hc3f5095_0|py27hb1d0314_0|py27hb1d0314_0|py36hc3f5095_0|py36hc3f5095_1|py36hc3f5095_1|py27hb1d0314_1|py36hc3f5095_0|py27hb1d0314_0|py36hc3f5095_0|py27hb1d0314_0|py36hc3f5095_0|py38hc3f5095_0|py27hb1d0314_0|py36h5bb6eb2_3|py38h5bb6eb2_3|py38h378b42e_4|py36ha3acd2a_0|py37h5bb6eb2_1|py37haf7ebc8_0|py39haf7ebc8_0|py38haf7ebc8_0|py38hc2deb75_0|py37hc2deb75_0|py38hc2deb75_0|py37h0829f74_0|py310h0829f74_0|py310hedd7904_0|py38hc2deb75_0|py38hca35cd5_1|py39hca35cd5_1|py39hca35cd5_2|py310h206c741_3|py38hca35cd5_0|py310h206c741_0|py39hca35cd5_0|py38hca35cd5_0|py310h206c741_0|py39hca35cd5_0|py38hca35cd5_3|py37hca35cd5_3|py39hca35cd5_3|py37hca35cd5_2|py310h206c741_2|py38hca35cd5_2|py310h206c741_1|py37hca35cd5_1|py37hc2deb75_0|py39hc2deb75_0|py38h0829f74_0|py39h0829f74_0|py39hc2deb75_0|py39hc2deb75_0|py37hc2deb75_0|py38h5bb6eb2_1|py39h5bb6eb2_1|py39hbd0edd7_0|py37ha3acd2a_0|py38ha3acd2a_0|py36ha3acd2a_0|py37ha3acd2a_0|py38ha3acd2a_0|py37h378b42e_4|py39h378b42e_4|py39h5bb6eb2_3|py37h5bb6eb2_3|py39h2e04a8b_1|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0|py27hb1d0314_0|py37hc3f5095_1|py36hc3f5095_0|py37hc3f5095_0|py27hb1d0314_0|py27hb1d0314_1|py37hc3f5095_1|py37hc3f5095_0|py37hc3f5095_0|py36h8128ebf_0|py36h8128ebf_0|py27h2753ae9_1|py36h8128ebf_0|py35h8128ebf_0|py37h4a99626_0|py27hb1d0314_5|py35h8128ebf_4|py27h2753ae9_4|py37h8128ebf_4|py36h5c71026_4|py37h5c71026_4|py37h5c71026_3|py36h5c71026_3|py27h0bb1d87_0|py27h0bb1d87_0|py36h5c71026_0|py27h917549b_1|py35h555522e_1|py38hc3f5095_12|py36hc3f5095_12|py27hb1d0314_12|py37hc3f5095_12|py36h2a9b21d_11|py37h2a9b21d_11|py37h8128ebf_11|py36h8128ebf_11|py36h8128ebf_10|py35h8128ebf_10|py27h2753ae9_9|py36h8128ebf_9|py36h4a99626_9|py35h4a99626_9|py35h4a99626_8|py27h0bb1d87_8']
+numpy==1.20.2 -> mkl_fft -> numpy-base[version='>=1.0.14,<2.0a0|>=1.0.6,<2.0a0|>=1.2.1,<2.0a0|>=1.0.2,<2.0a0|>=1.0.4,<2.0a0']
+cython-blis -> numpy[version='>=1.21.5,<2.0a0'] -> numpy-base[version='1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.2|1.16.2|1.16.2|1.16.3|1.16.3|1.16.3|1.16.4|1.16.4|1.16.5|1.16.5|1.16.5|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.17.2.*|1.17.3.*|1.17.4.*|1.18.1.*|1.18.5.*|1.19.1|1.19.1|1.19.1|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.20.1|1.20.1|1.20.1|1.20.2|1.20.2|1.20.2|1.20.3|1.20.3|1.20.3|1.21.2|1.21.2|1.21.2|1.21.2|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.22.3|1.22.3|1.22.3|1.23.1|1.17.0|1.17.0',build='py27hb1d0314_0|py36hc3f5095_0|py36hc3f5095_1|py36hc3f5095_1|py27hb1d0314_1|py36hc3f5095_0|py27hb1d0314_0|py36hc3f5095_0|py27hb1d0314_0|py36hc3f5095_0|py38hc3f5095_0|py27hb1d0314_0|py36h5bb6eb2_3|py38h5bb6eb2_3|py38h378b42e_4|py36ha3acd2a_0|py37h5bb6eb2_1|py37haf7ebc8_0|py39haf7ebc8_0|py38haf7ebc8_0|py38hc2deb75_0|py37hc2deb75_0|py38hc2deb75_0|py37h0829f74_0|py310h0829f74_0|py310hedd7904_0|py38hc2deb75_0|py38hca35cd5_1|py39hca35cd5_1|py39hca35cd5_2|py310h206c741_3|py38hca35cd5_0|py310h206c741_0|py39hca35cd5_0|py38hca35cd5_0|py310h206c741_0|py39hca35cd5_0|py38hca35cd5_3|py37hca35cd5_3|py39hca35cd5_3|py37hca35cd5_2|py310h206c741_2|py38hca35cd5_2|py310h206c741_1|py37hca35cd5_1|py37hc2deb75_0|py39hc2deb75_0|py38h0829f74_0|py39h0829f74_0|py39hc2deb75_0|py39hc2deb75_0|py37hc2deb75_0|py38h5bb6eb2_1|py39h5bb6eb2_1|py39hbd0edd7_0|py37ha3acd2a_0|py38ha3acd2a_0|py36ha3acd2a_0|py37ha3acd2a_0|py38ha3acd2a_0|py37h378b42e_4|py39h378b42e_4|py39h5bb6eb2_3|py37h5bb6eb2_3|py39h2e04a8b_1|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0|py27hb1d0314_0|py37hc3f5095_1|py36hc3f5095_0|py37hc3f5095_0|py27hb1d0314_0|py27hb1d0314_1|py37hc3f5095_1|py37hc3f5095_0']
+numpy==1.20.2 -> numpy-base==1.20.2[build='py37hc2deb75_0|py38hc2deb75_0|py39hc2deb75_0']
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> numpy[version='>=1.16,<2.0a0'] -> numpy-base[version='1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.2|1.16.2|1.16.2|1.16.3|1.16.3|1.16.3|1.16.4|1.16.4|1.16.5|1.16.5|1.16.5|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.17.2.*|1.17.3.*|1.17.4.*|1.18.1.*|1.18.5.*|1.19.1|1.19.1|1.19.1|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.20.1|1.20.1|1.20.1|1.20.2|1.20.2|1.20.2|1.20.3|1.20.3|1.20.3|1.21.2|1.21.2|1.21.2|1.21.2|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.22.3|1.22.3|1.22.3|1.23.1|1.17.0|1.17.0',build='py27hb1d0314_0|py36hc3f5095_0|py36hc3f5095_1|py27hb1d0314_0|py36hc3f5095_0|py36hc3f5095_0|py27hb1d0314_0|py36hc3f5095_0|py27hb1d0314_0|py38hc3f5095_0|py27hb1d0314_0|py36h5bb6eb2_3|py38h5bb6eb2_3|py38h378b42e_4|py36ha3acd2a_0|py37h5bb6eb2_1|py37haf7ebc8_0|py39haf7ebc8_0|py38haf7ebc8_0|py38hc2deb75_0|py37hc2deb75_0|py38hc2deb75_0|py37h0829f74_0|py310h0829f74_0|py310hedd7904_0|py38hc2deb75_0|py38hca35cd5_1|py39hca35cd5_1|py39hca35cd5_2|py310h206c741_3|py38hca35cd5_0|py310h206c741_0|py39hca35cd5_0|py38hca35cd5_0|py310h206c741_0|py39hca35cd5_0|py38hca35cd5_3|py37hca35cd5_3|py39hca35cd5_3|py37hca35cd5_2|py310h206c741_2|py38hca35cd5_2|py310h206c741_1|py37hca35cd5_1|py37hc2deb75_0|py39hc2deb75_0|py38h0829f74_0|py39h0829f74_0|py39hc2deb75_0|py39hc2deb75_0|py37hc2deb75_0|py38h5bb6eb2_1|py39h5bb6eb2_1|py39hbd0edd7_0|py37ha3acd2a_0|py38ha3acd2a_0|py36ha3acd2a_0|py37ha3acd2a_0|py38ha3acd2a_0|py37h378b42e_4|py39h378b42e_4|py39h5bb6eb2_3|py37h5bb6eb2_3|py39h2e04a8b_1|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0|py37hc3f5095_0|py27hb1d0314_1|py37hc3f5095_1|py37hc3f5095_0|py27hb1d0314_0|py27hb1d0314_1|py36hc3f5095_1|py37hc3f5095_1|py36hc3f5095_0|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0']
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> numpy[version='>=1.16,<2.0a0'] -> numpy-base[version='1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.2|1.16.2|1.16.2|1.16.3|1.16.3|1.16.3|1.16.4|1.16.4|1.16.5|1.16.5|1.16.5|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.17.2.*|1.17.3.*|1.17.4.*|1.18.1.*|1.18.5.*|1.19.1|1.19.1|1.19.1|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.20.1|1.20.1|1.20.1|1.20.2|1.20.2|1.20.2|1.20.3|1.20.3|1.20.3|1.21.2|1.21.2|1.21.2|1.21.2|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.22.3|1.22.3|1.22.3|1.23.1|1.17.0|1.17.0',build='py27hb1d0314_0|py36hc3f5095_0|py36hc3f5095_1|py27hb1d0314_0|py36hc3f5095_0|py36hc3f5095_0|py27hb1d0314_0|py36hc3f5095_0|py27hb1d0314_0|py38hc3f5095_0|py27hb1d0314_0|py36h5bb6eb2_3|py38h5bb6eb2_3|py38h378b42e_4|py36ha3acd2a_0|py37h5bb6eb2_1|py37haf7ebc8_0|py39haf7ebc8_0|py38haf7ebc8_0|py38hc2deb75_0|py37hc2deb75_0|py38hc2deb75_0|py37h0829f74_0|py310h0829f74_0|py310hedd7904_0|py38hc2deb75_0|py38hca35cd5_1|py39hca35cd5_1|py39hca35cd5_2|py310h206c741_3|py38hca35cd5_0|py310h206c741_0|py39hca35cd5_0|py38hca35cd5_0|py310h206c741_0|py39hca35cd5_0|py38hca35cd5_3|py37hca35cd5_3|py39hca35cd5_3|py37hca35cd5_2|py310h206c741_2|py38hca35cd5_2|py310h206c741_1|py37hca35cd5_1|py37hc2deb75_0|py39hc2deb75_0|py38h0829f74_0|py39h0829f74_0|py39hc2deb75_0|py39hc2deb75_0|py37hc2deb75_0|py38h5bb6eb2_1|py39h5bb6eb2_1|py39hbd0edd7_0|py37ha3acd2a_0|py38ha3acd2a_0|py36ha3acd2a_0|py37ha3acd2a_0|py38ha3acd2a_0|py37h378b42e_4|py39h378b42e_4|py39h5bb6eb2_3|py37h5bb6eb2_3|py39h2e04a8b_1|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0|py37hc3f5095_0|py27hb1d0314_1|py37hc3f5095_1|py37hc3f5095_0|py27hb1d0314_0|py27hb1d0314_1|py36hc3f5095_1|py37hc3f5095_1|py36hc3f5095_0|py37hc3f5095_0|py36hc3f5095_0|py37hc3f5095_0']
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> numpy[version='>=1.20.2,<2.0a0'] -> numpy-base[version='1.20.2|1.20.2|1.20.2|1.20.3|1.20.3|1.20.3|1.21.2|1.21.2|1.21.2|1.21.2|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.21.5|1.22.3|1.22.3|1.22.3|1.23.1',build='py38hc2deb75_0|py37hc2deb75_0|py38hc2deb75_0|py37h0829f74_0|py310h0829f74_0|py310hedd7904_0|py38hc2deb75_0|py38hca35cd5_1|py39hca35cd5_1|py39hca35cd5_2|py310h206c741_3|py38hca35cd5_0|py310h206c741_0|py39hca35cd5_0|py38hca35cd5_0|py310h206c741_0|py39hca35cd5_0|py38hca35cd5_3|py37hca35cd5_3|py39hca35cd5_3|py37hca35cd5_2|py310h206c741_2|py38hca35cd5_2|py310h206c741_1|py37hca35cd5_1|py37hc2deb75_0|py39hc2deb75_0|py38h0829f74_0|py39h0829f74_0|py39hc2deb75_0|py39hc2deb75_0|py37hc2deb75_0']
+
+Package blas conflicts for:
+cython-blis -> numpy[version='>=1.21.5,<2.0a0'] -> blas==1.0=mkl
+spacy -> numpy[version='>=1.16.6,<2.0a0'] -> blas[version='*|1.0',build=mkl]
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> blas==1.0=mkl
+numpy==1.20.2 -> blas==1.0=mkl
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> numpy[version='>=1.16,<2.0a0'] -> blas==1.0=mkl
+thinc -> blas==1.0=mkl
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> blas=[build=mkl]
+defaults|defaults/win-64::blas==1.0=mkl
+numpy==1.20.2 -> mkl_fft -> blas=[build=mkl]
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> numpy[version='>=1.20.2,<2.0a0'] -> blas==1.0=mkl
+thinc -> numpy[version='>=1.11.3,<2.0a0'] -> blas=[build=mkl]
+numpy-base==1.20.2 -> blas==1.0=mkl
+defaults/win-64::blas==1.0=mkl
+
+Package mkl_fft conflicts for:
+spacy -> numpy[version='>=1.16.6,<2.0a0'] -> mkl_fft[version='>=1.0.14,<2.0a0|>=1.0.6,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4']
+thinc -> numpy[version='>=1.16.6,<2.0a0'] -> mkl_fft[version='>=1.0.14,<2.0a0|>=1.0.6,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4']
+cython-blis -> numpy[version='>=1.21.5,<2.0a0'] -> mkl_fft[version='>=1.0.14,<2.0a0|>=1.0.6,<2.0a0|>=1.2.1,<2.0a0']
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> numpy[version='>=1.20.2,<2.0a0'] -> mkl_fft
+defaults|defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> numpy[version='>=1.16,<2.0a0'] -> mkl_fft[version='>=1.0.14,<2.0a0|>=1.0.6,<2.0a0|>=1.2.1,<2.0a0']
+numpy==1.20.2 -> mkl_fft
+
+Package spacy-legacy conflicts for:
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> spacy-legacy[version='>=3.0.8,<3.1.0|>=3.0.9,<3.1.0']
+spacy -> spacy-legacy[version='>=3.0.8,<3.1.0|>=3.0.9,<3.1.0']
+spacy-model-en_core_web_sm -> spacy=3.3 -> spacy-legacy[version='>=3.0.9,<3.1.0']
+spacy-legacy
+
+Package importlib_metadata conflicts for:
+thinc -> catalogue[version='>=0.2.0,<3.0.0'] -> importlib_metadata[version='>=0.20']
+spacy -> catalogue[version='>=0.0.7,<1.1.0'] -> importlib_metadata[version='>=0.20']
+srsly -> catalogue[version='>=2.0.3,<2.1.0'] -> importlib_metadata[version='>=0.20']
+spacy-transformers -> transformers[version='>=3.4.0,<4.19.0'] -> importlib_metadata
+catalogue -> importlib_metadata[version='>=0.20']
+
+Package colorama conflicts for:
+pathy -> typer[version='>=0.3.0,<1.0.0'] -> colorama[version='>=0.4.3,<0.5.0']
+thinc -> tqdm[version='>=4.10.0,<5.0.0'] -> colorama
+click -> colorama
+colorama
+typer -> colorama[version='>=0.4.3,<0.5.0']
+typer -> click[version='>=7.1.1,<9.0.0'] -> colorama
+spacy -> click[version='<8.1.0'] -> colorama[version='>=0.4.3,<0.5.0']
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> pip -> colorama
+
+Package icc_rt conflicts for:
+spacy -> numpy[version='>=1.16.6,<2.0a0'] -> icc_rt[version='>=13.1.6|>=2019.0.0|>=16.0.4']
+cython-blis -> numpy[version='>=1.16.6,<2.0a0'] -> icc_rt[version='>=13.1.6|>=2019.0.0']
+thinc -> numpy[version='>=1.16.6,<2.0a0'] -> icc_rt[version='>=13.1.6|>=2019.0.0|>=16.0.4']
+defaults/win-64::mkl_random==1.2.1=py38hf11a4ad_2 -> numpy[version='>=1.16,<2.0a0'] -> icc_rt[version='>=13.1.6|>=2019.0.0']
+defaults/win-64::mkl_fft==1.3.0=py38h277e83a_2 -> numpy[version='>=1.16,<2.0a0'] -> icc_rt[version='>=13.1.6|>=2019.0.0']
+
+Package importlib-metadata conflicts for:
+click -> importlib-metadata
+spacy -> click[version='<8.1.0'] -> importlib-metadata
+typer -> click[version='>=7.1.1,<9.0.0'] -> importlib-metadata
+catalogue -> importlib_metadata[version='>=0.20'] -> importlib-metadata[version='>=1.1.3,<1.1.4.0a0|>=1.6.0,<1.6.1.0a0|>=1.6.1,<1.6.2.0a0|>=1.7.0,<1.7.1.0a0|>=2.0.0,<2.0.1.0a0|>=3.10.0,<3.10.1.0a0|>=4.11.3,<4.11.4.0a0|>=4.8.2,<4.8.3.0a0|>=4.8.1,<4.8.2.0a0|>=4.6.4,<4.6.5.0a0|>=3.7.3,<3.7.4.0a0']
+
+Package pydantic conflicts for:
+spacy -> thinc[version='>=7.4.1'] -> pydantic[version='>=1.7.1,<1.8.0']
+spacy-model-en_core_web_sm -> spacy=3.3 -> pydantic[version='>=1.7.4,!=1.8,!=1.8.1']
+thinc -> pydantic[version='>=1.7.1,<1.8.0|>=1.7.4,!=1.8,!=1.8.1|>=1.7.4,!=1.8,!=1.8.1,<1.9.0']
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> pydantic[version='>=1.7.4,!=1.8,!=1.8.1|>=1.7.4,!=1.8,!=1.8.1,<1.9.0']
+spacy -> pydantic[version='>=1.7.4,!=1.8,!=1.8.1|>=1.7.4,!=1.8,!=1.8.1,<1.9.0']
+pydantic
+
+Package catalogue conflicts for:
+catalogue
+spacy -> srsly[version='>=2.4.3,<3.0.0'] -> catalogue[version='>=0.2.0,<3.0.0|>=2.0.3,<2.1.0|>=2.0.4,<2.1.0']
+srsly -> catalogue[version='>=2.0.3,<2.1.0']
+thinc -> srsly[version='>=2.4.0,<3.0.0'] -> catalogue[version='>=2.0.3,<2.1.0']
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> catalogue[version='>=2.0.3,<2.1.0|>=2.0.6,<2.1.0']
+thinc -> catalogue[version='>=0.0.7,<1.1.0|>=0.2.0,<3.0.0|>=2.0.4,<2.1.0']
+spacy-model-en_core_web_sm -> spacy=3.3 -> catalogue[version='>=2.0.6,<2.1.0']
+spacy -> catalogue[version='>=0.0.7,<1.1.0|>=2.0.6,<2.1.0']
+
+Package srsly conflicts for:
+spacy-model-en_core_web_sm -> spacy=3.3 -> srsly[version='>=2.4.3,<3.0.0']
+thinc -> srsly[version='>=0.0.6,<1.1.0|>=2.0.0,<3.0.0|>=2.4.0,<3.0.0']
+srsly
+spacy -> thinc[version='>=8.0.14,<8.1.0'] -> srsly[version='>=0.0.6,<1.1.0|>=2.0.0,<3.0.0|>=2.4.0,<3.0.0']
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> srsly[version='>=2.4.1,<3.0.0|>=2.4.3,<3.0.0']
+spacy-transformers -> srsly[version='>=2.4.0,<3.0.0']
+spacy -> srsly[version='>=1.0.2,<1.1.0|>=2.4.1,<3.0.0|>=2.4.3,<3.0.0']
+
+Package preshed conflicts for:
+preshed
+spacy -> preshed[version='>=1.0.0,<2.0.0|>=2.0.1,<2.1.0|>=3.0.2,<3.1.0']
+thinc -> preshed[version='>=1.0.0,<2.0.0|>=2.0.1,<3.0.0|>=3.0.2,<3.1.0']
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> preshed[version='>=3.0.2,<3.1.0']
+spacy -> thinc[version='>=6.12.0,<6.13.0'] -> preshed[version='>=2.0.1,<3.0.0']
+spacy-model-en_core_web_sm -> spacy=3.3 -> preshed[version='>=3.0.2,<3.1.0']
+
+Package markupsafe conflicts for:
+jinja2 -> markupsafe[version='>=0.23|>=2.0']
+markupsafe
+spacy -> jinja2 -> markupsafe[version='>=0.23|>=2.0']
+
+Package pyopenssl conflicts for:
+requests -> urllib3[version='>=1.21.1,<1.27'] -> pyopenssl[version='>=0.14']
+urllib3 -> pyopenssl[version='>=0.14']
+pyopenssl
+
+Package cffi conflicts for:
+pyopenssl -> cryptography[version='>=35.0'] -> cffi[version='!=1.11.3,>=1.8|>=1.12|>=1.8|>=1.7']
+brotlipy -> cffi[version='>=1.0.0']
+cffi
+urllib3 -> brotlipy[version='>=0.6.0'] -> cffi[version='!=1.11.3,>=1.8|>=1.0.0|>=1.12|>=1.8|>=1.7']
+cryptography -> cffi[version='!=1.11.3,>=1.8|>=1.12|>=1.8|>=1.7']
+spacy-transformers -> pytorch[version='>=1.6.0'] -> cffi
+
+Package thinc conflicts for:
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> thinc[version='>=8.0.12,<8.1.0|>=8.0.14,<8.1.0']
+spacy-model-en_core_web_sm -> spacy=3.3 -> thinc[version='>=8.0.14,<8.1.0']
+spacy -> thinc[version='7.4.1|>=7.4.1|>=8.0.12,<8.1.0|>=8.0.14,<8.1.0|>=6.12.0,<6.13.0|>=6.10.3,<6.11.0|>=6.10.1,<6.12.0|>=6.10.1,<6.11.0|>=6.5.0,<6.6.0']
+thinc
+
+Package et_xmlfile conflicts for:
+openpyxl -> et_xmlfile
+et_xmlfile
+
+Package pycparser conflicts for:
+pycparser
+brotlipy -> cffi[version='>=1.0.0'] -> pycparser[version='>=2.06']
+cryptography -> cffi[version='>=1.12'] -> pycparser[version='>=2.06']
+cffi -> pycparser[version='>=2.06']
+
+Package charset-normalizer conflicts for:
+smart_open -> requests -> charset-normalizer[version='>=2.0.0,<2.1.0|>=2.0.0,<3']
+spacy -> requests[version='>=2.13.0,<3.0.0'] -> charset-normalizer[version='>=2.0.0,<2.1.0|>=2.0.0,<3']
+requests -> charset-normalizer[version='>=2.0.0,<2.1.0|>=2.0.0,<3']
+charset-normalizer
+
+Package smart_open conflicts for:
+pathy -> smart_open[version='>=2.2.0,<4.0.0|>=5.0.0,<6.0.0']
+spacy -> pathy[version='>=0.3.5'] -> smart_open[version='>=2.2.0,<4.0.0|>=5.0.0,<6.0.0']
+smart_open
+
+Package shellingham conflicts for:
+spacy -> typer[version='>=0.3.0,<0.5.0'] -> shellingham[version='>=1.3.0,<2.0.0']
+pathy -> typer[version='>=0.3.0,<1.0.0'] -> shellingham[version='>=1.3.0,<2.0.0']
+typer -> shellingham[version='>=1.3.0,<2.0.0']
+shellingham
+
+Package pyparsing conflicts for:
+packaging -> pyparsing[version='>=2.0.2|>=2.0.2,!=3.0.5']
+spacy -> packaging[version='>=20.0'] -> pyparsing[version='>=2.0.2|>=2.0.2,!=3.0.5']
+pyparsing
+
+Package dataclasses conflicts for:
+pathy -> dataclasses[version='>=0.6,<1.0']
+thinc -> dataclasses[version='>=0.6,<1.0']
+spacy -> pathy[version='>=0.3.5'] -> dataclasses[version='>=0.6,<1.0']
+pydantic -> dataclasses[version='>=0.6']
+thinc -> pydantic[version='>=1.7.1,<1.8.0'] -> dataclasses[version='>=0.6']
+spacy-transformers -> transformers[version='>=3.4.0,<4.19.0'] -> dataclasses
+
+Package click conflicts for:
+spacy-model-en_core_web_sm -> spacy=3.3 -> click[version='<8.1.0']
+click
+spacy -> click[version='<8.1.0']
+pathy -> typer[version='>=0.3.0,<1.0.0'] -> click[version='>=7.1.1,<7.2.0|>=7.1.1,<9.0.0']
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> click[version='<8.1.0']
+typer -> click[version='>=7.1.1,<7.2.0|>=7.1.1,<9.0.0']
+spacy -> typer[version='>=0.3.0,<0.5.0'] -> click[version='>=7.1.1,<7.2.0|>=7.1.1,<9.0.0']
+
+Package packaging conflicts for:
+spacy-model-en_core_web_sm -> spacy=3.3 -> packaging[version='>=20.0']
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> pip -> packaging
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> packaging[version='>=20.0']
+packaging
+spacy -> pip[version='>=9.0.0,<10.0.0'] -> packaging
+spacy -> packaging[version='>=20.0']
+
+Package pytz conflicts for:
+defaults/win-64::pandas==1.2.5=py38hd77b12b_0 -> pytz[version='>=2017.3']
+defaults/noarch::pytz==2021.1=pyhd3eb1b0_0
+defaults|defaults/noarch::pytz==2021.1=pyhd3eb1b0_0
+
+Package msgpack-numpy conflicts for:
+spacy -> thinc[version='>=6.12.0,<6.13.0'] -> msgpack-numpy[version='<0.4.4.0|>=0.4.1,<1.0.0|>=0.4.1']
+spacy -> msgpack-numpy[version='0.4.1|<0.4.4|>=0.4.1,<0.5.0']
+thinc -> msgpack-numpy[version='0.4.1|<0.4.4.0|>=0.4.1|>=0.4.1,<1.0.0']
+
+Package msgpack-python conflicts for:
+thinc -> msgpack-python[version='>=0.4.8,<0.5.0|>=0.5.6|>=0.5.6,<1.0.0']
+msgpack-python
+spacy -> msgpack-python[version='>=0.4.8,<0.5.0|>=0.4.8,<0.5.7']
+thinc -> msgpack-numpy[version='<0.4.4.0'] -> msgpack-python[version='>=0.3.0|>=0.5.2']
+spacy -> msgpack-numpy[version='<0.4.4'] -> msgpack-python[version='>=0.3.0|>=0.5.6,<1.0.0|>=0.5.2|>=0.5.6']
+
+Package typing conflicts for:
+spacy -> typing_extensions[version='>=3.7.4.1,<4.2.0'] -> typing[version='>=3.7.4']
+typing_extensions -> typing[version='>=3.7.4']
+thinc -> typing_extensions[version='>=3.7.4.1,<4.0.0.0'] -> typing[version='>=3.7.4']
+
+Package tqdm conflicts for:
+spacy -> tqdm[version='>=4.38.0,<5.0.0']
+spacy -> thinc[version='>=7.4.1'] -> tqdm[version='>=4.10.0,<5.0.0']
+spacy-model-en_core_web_sm -> spacy=3.3 -> tqdm[version='>=4.38.0,<5.0.0']
+spacy-transformers -> spacy[version='>=3.1.3,<4.0.0'] -> tqdm[version='>=4.27|>=4.38.0,<5.0.0']
+thinc -> tqdm[version='>=4.10.0,<5.0.0']
+tqdm
+
+Package html5lib conflicts for:
+spacy -> ftfy[version='>=4.4.2,<5.0.0'] -> html5lib
+defaults/win-64::python==3.8.5=h5fd99cc_1 -> pip -> html5lib
+
+Package regex conflicts for:
+spacy-transformers -> transformers[version='>=3.4.0,<4.19.0'] -> regex!=2019.12.17
+spacy -> regex[version='2017.4.5|>=2017.4.0,<2017.12.1|>=2017.4.0,<=2018.6.21|>=2017.4.0,<=2018.7.11|>=2018.01.10|>=2017.4.1,<2017.12.1']
+
+Package spacy conflicts for:
+spacy
+spacy-model-en_core_web_sm -> spacy=3.3

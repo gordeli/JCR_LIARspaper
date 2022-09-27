@@ -12,12 +12,12 @@ import sqlite3
 import shutil # we use this library to create a copy of a file (in this case to duplicate the database
 # so that we can loop over one instance while editing the other)
 # Establish a SQLite connection to a database named 'Liars4.sqlite':
-conn = sqlite3.connect('Liars7_review_sent_new_length.sqlite')
+conn = sqlite3.connect('Liars7_www_Rel_sent.sqlite')
 # Get the cursor, which is used to traverse the database, line by line
 cur = conn.cursor()
 # Then we duplicate thedatabase, so that one can loop and edit it at the same time
 # and 'open' the other 'instance' of the same database
-shutil.copyfile('Liars7_review_sent_new_length.sqlite', 'Liars7_w.sqlite')
+shutil.copyfile('Liars7_www_Rel_sent.sqlite', 'Liars7_w.sqlite')
 conn_w = sqlite3.connect('Liars7_w.sqlite')
 cur_w = conn_w.cursor()
 
@@ -716,4 +716,4 @@ cur_w.close()
 conn_w.close()
 cur.close()
 conn.close()
-shutil.copyfile('Liars7_w.sqlite', 'Liars7_LIWC_sent_new.sqlite')
+shutil.copyfile('Liars7_w.sqlite', 'Liars7_LIWC_sent_fixed.sqlite')

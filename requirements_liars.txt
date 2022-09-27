@@ -6,3 +6,4 @@ pyenchant==2.0.0
 numpy
 scipy
 xlrd
+spacy
